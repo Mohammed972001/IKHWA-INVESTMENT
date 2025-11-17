@@ -1,7 +1,7 @@
 'use client';
 
 import { useTheme } from 'next-themes';
-import { useEffect, useState, useRef } from 'react';
+import { useEffect, useState } from 'react';
 import { useTranslations } from 'next-intl';
 import { useResponsive } from '../../hooks';
 import { LocalizedHeading, LocalizedParagraph, LocalizedButton } from '../ui/Typography';
@@ -9,8 +9,6 @@ import { LocalizedHeading, LocalizedParagraph, LocalizedButton } from '../ui/Typ
 const Hero = () => {
   const { theme, resolvedTheme } = useTheme();
   const [mounted, setMounted] = useState(false);
-  const [isVideoLoaded, setIsVideoLoaded] = useState(false);
-  const videoRef = useRef<HTMLVideoElement>(null);
   const t = useTranslations('Home.hero');
   const { mobile: isMobile } = useResponsive();
 
@@ -35,54 +33,21 @@ const Hero = () => {
     ? '/Home/Hero/herodark.mp4'
     : '/Home/Hero/herolight.mp4';
 
-  // Preload video and handle loading state
-  useEffect(() => {
-    if (!mounted || !videoRef.current) return;
-
-    const video = videoRef.current;
-
-    const handleCanPlay = () => {
-      setIsVideoLoaded(true);
-    };
-
-    const handleLoadedData = () => {
-      setIsVideoLoaded(true);
-    };
-
-    video.addEventListener('canplay', handleCanPlay);
-    video.addEventListener('loadeddata', handleLoadedData);
-
-    // Force load
-    video.load();
-
-    return () => {
-      video.removeEventListener('canplay', handleCanPlay);
-      video.removeEventListener('loadeddata', handleLoadedData);
-    };
-  }, [currentTheme, mounted]);
-
   return (
     <div className="relative min-h-screen w-full overflow-hidden">
-      {/* Video Background with loading optimization */}
+      {/* Video Background */}
       <div className="absolute inset-0 z-0">
-        {/* Fallback gradient background while video loads */}
-        <div className="absolute inset-0 bg-gradient-to-br from-gray-900 via-gray-800 to-black"></div>
-
-        {mounted && (
-          <video
-            ref={videoRef}
-            autoPlay
-            loop
-            muted
-            playsInline
-            preload="auto"
-            className={`h-full w-full object-cover transition-opacity duration-500 ${isVideoLoaded ? 'opacity-100' : 'opacity-0'}`}
-            key={currentTheme}
-          >
-            <source src={videoSrc} type="video/mp4" />
-            Your browser does not support the video tag.
-          </video>
-        )}
+        <video
+          autoPlay
+          loop
+          muted
+          playsInline
+          className="h-full w-full object-cover"
+          key={currentTheme}
+        >
+          <source src={videoSrc} type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
 
         {/* Gradient overlay from right (dark) to left (transparent) */}
         <div className="absolute inset-0 bg-gradient-to-l from-black/70 via-black/40 to-transparent dark:from-black/80 dark:via-black/50 dark:to-transparent"></div>
