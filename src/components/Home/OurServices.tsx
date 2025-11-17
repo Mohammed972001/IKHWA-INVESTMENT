@@ -121,7 +121,7 @@ const OurServices = () => {
                       style={{
                         fontSize: '32px',
                         fontWeight: '600',
-                        lineHeight: '63px'
+                        lineHeight: '36px'
                       }}
                     >
                       <span style={{ color: '#29B04D' }}>
@@ -136,7 +136,7 @@ const OurServices = () => {
                       style={{
                         fontSize: '16px',
                         fontWeight: '500',
-                        lineHeight: '32px'
+                        lineHeight: '30px'
                       }}
                     >
                       {t(`services.${index}.description`)}
@@ -150,6 +150,7 @@ const OurServices = () => {
                       alt={`Service ${service.id}`}
                       width={350}
                       height={350}
+                      loading="lazy"
                       className="object-contain"
                       style={{ maxWidth: '100%', height: 'auto' }}
                     />
@@ -165,6 +166,7 @@ const OurServices = () => {
                       alt={`Service ${service.id}`}
                       width={400}
                       height={400}
+                      loading="lazy"
                       className="object-contain"
                       style={{ width: '100%', maxWidth: '100%', height: 'auto' }}
                     />

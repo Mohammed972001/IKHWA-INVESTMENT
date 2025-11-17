@@ -20,7 +20,7 @@ const NavbarThemeToggle = () => {
   return (
     <button
       onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}
-      className="flex h-8 w-8 items-center justify-center rounded-md bg-white/10 backdrop-blur-sm transition-all duration-300 hover:bg-white/20 focus:outline-none focus:ring-2 focus:ring-white/50"
+      className="flex h-8 w-8 items-center cursor-pointer justify-center rounded-md bg-white/10 backdrop-blur-sm transition-all duration-300 hover:bg-white/20 focus:outline-none focus:ring-2 focus:ring-white/50"
       aria-label="Toggle theme"
     >
       {theme === 'dark' ? (

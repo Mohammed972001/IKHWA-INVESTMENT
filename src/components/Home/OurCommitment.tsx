@@ -29,6 +29,7 @@ function CommitmentCard({ icon, title, description, locale, isRTL }: CommitmentC
           alt={title}
           width={60}
           height={60}
+          loading="lazy"
           className="w-[60px] h-[60px] object-contain"
         />
       </div>

@@ -1,6 +1,6 @@
 {
   "HomePage": {
-    "title": "IKHWA Investment",
+    "title": "IKHWA INVESTMENTS",
     "subtitle": "Your trusted partner for investment solutions",
     "getStarted": "Get started by editing",
     "saveChanges": "Save and see your changes instantly",
@@ -12,7 +12,7 @@
   },
   "Home": {
     "title": "Home Page",
-    "subtitle": "Welcome to IKHWA Investment Website",
+    "subtitle": "Welcome to IKHWA INVESTMENTS Website",
     "currentTime": "Current Time",
     "hero": {
       "title": "Company Formation Services in the Kingdom of Morocco",
@@ -21,7 +21,7 @@
     },
     "welcome": {
       "title": "Welcome",
-      "description": "Welcome to the home page of IKHWA Investment website. This project is built using Next.js with multi-language support including Arabic, English, and French."
+      "description": "Welcome to the home page of IKHWA INVESTMENTS website. This project is built using Next.js with multi-language support including Arabic, English, and French."
     },
     "features": {
       "multilingual": {
@@ -73,7 +73,7 @@
       "message": "Page created successfully - System works perfectly!",
       "companyInfo": {
         "title": "Company Information",
-        "description": "Ikhwa Investments, a Moroccan company part of The Ikhwa Network group, specializes in company formation. Our primary goal is to create an integrated platform and structure for both Moroccan and foreign investors, supporting their project launches with strategies tailored to their financial and investment objectives. We also streamline all administrative procedures for international investors, providing them with access to the Moroccan economic market."
+        "description": "IKHWA INVESTMENTS, a Moroccan company part of IKHWA NETWORK group, specializes in company formation. Our primary goal is to create an integrated platform and structure for both Moroccan and foreign investors, supporting their project launches with strategies tailored to their financial and investment objectives. We also streamline all administrative procedures for international investors, providing them with access to the Moroccan economic market."
       },
       "quickLinks": {
         "title": "Quick Links",
@@ -92,20 +92,21 @@
         "title": "Follow Us",
         "facebook": "Facebook",
         "instagram": "Instagram",
-        "twitter": "Twitter",
+        "twitter": "X",
         "linkedin": "LinkedIn",
-        "telegram": "Telegram"
+        "telegram": "Telegram",
+        "youtube": "YouTube"
       }
     }
   },
   "aboutUs": {
     "title": "About",
     "titleHighlight": "Us",
-    "description": "Ikhwa Investments, a Moroccan company part of the Ikhwa Network group, specializes in company formation. Our primary goal is to create an integrated platform and structure for both Moroccan and foreign investors, supporting their project launches with strategies tailored to their financial and investment objectives. We also streamline all administrative procedures for international investors, providing them with access to the Moroccan economic market.",
+    "description": "IKHWA INVESTMENTS, a Moroccan company part of IKHWA NETWORK group, specializes in company formation. Our primary goal is to create an integrated platform and structure for both Moroccan and foreign investors, supporting their project launches with strategies tailored to their financial and investment objectives. We also streamline all administrative procedures for international investors, providing them with access to the Moroccan economic market.",
     "ceoMessage": {
       "title": "Message from the CEO of the company",
       "content": "Our company serves as the strategic partner responsible for establishing and managing your projects with a practical and technical approach. We channel your efforts toward growing your investment and elevating your business and economic objectives. Our firm strives to be your right arm in all administrative and marketing matters.",
-      "signature": "Mohammed Saad Al Raji",
+      "signature": "Mohamed Saàd ERAJI",
       "position": "Managing Director and CEO"
     }
   },
@@ -175,15 +176,15 @@
     "subtitle": "We provide you with a collection of answers to questions about the company",
     "questions": {
       "0": {
-        "question": "What is IKHWA Investments?",
-        "answer": "IKHWA Investments is a company active in supporting investment and creating business platforms in Morocco. Our main headquarters is currently located in the Ismailia capital, Meknes. Founded in 2024 by Moroccan businessmen."
+        "question": "What is IKHWA INVESTMENTS?",
+        "answer": "IKHWA INVESTMENTS is a company active in supporting investment and creating business platforms in Morocco. Our main headquarters is currently located in the Ismailia capital, Meknes. Founded in 2024 by Moroccan businessmen."
       },
       "1": {
         "question": "What is the legal form and name of the company?",
-        "answer": "The company operates under the trade name 'IKHWA Investments' and is a limited liability company legally registered in the Kingdom of Morocco."
+        "answer": "The company operates under the trade name 'IKHWA INVESTMENTS' and is a limited liability company legally registered in the Kingdom of Morocco."
       },
       "2": {
-        "question": "Where is IKHWA Investments located?",
+        "question": "Where is IKHWA INVESTMENTS located?",
         "answer": "The company's headquarters is located in Meknes city, the Ismailia capital, Kingdom of Morocco, with plans for expansion to other cities."
       },
       "3": {
@@ -210,7 +211,7 @@
     },
     "address": {
       "title": "Address",
-      "location": "Villa 194, Ryad Toulal 1, Meknes"
+      "location": "VILLA N194 LOT RIAD TOULAL 1 MEKNÈS"
     },
     "workingHours": {
       "title": "Working Hours:",
@@ -323,6 +324,140 @@
           "title": "Official forms",
           "description": "Preparing and printing all official company forms such as the official seal, correspondence, and all necessary documents to start operations."
         }
+      }
+    }
+  },
+  "Terms": {
+    "hero": {
+      "title": "Terms and Conditions of Use",
+      "description": "Learn about the terms and conditions that govern your use of the application and define your rights and obligations to ensure a safe and organized experience."
+    },
+    "sections": {
+      "commitment": {
+        "title": "Our Commitment to You",
+        "content": "This website is owned and operated by IKHWA INVESTMENTS, and we refer to IKHWA INVESTMENTS on this site as 'we', 'us', or 'our'.\n\nThese terms of use apply to your use of our website, so please read them carefully before browsing the site. You may wish to print a copy of these terms for future reference.\n\nBy using, accessing, or browsing the company's website, you accept and agree to comply with the terms of use stated herein, whether you are a visitor or registered user. If you do not agree to these terms, the company does not authorize you to use this site under any circumstances."
+      },
+      "privacy": {
+        "title": "Privacy and Cookies",
+        "content": "Our applicable privacy policy explains the basis on which the company collects and uses personal data, cookies, and other similar tools used by us and how to set your cookie preferences."
+      },
+      "companyInfo": {
+        "title": "About the Company",
+        "content": "This website is operated by IKHWA INVESTMENTS BY IKHWA NETWORK LLC.\n\nIKHWA INVESTMENTS is a limited liability company."
+      },
+      "definitions": {
+        "title": "Key Definitions",
+        "company": {
+          "title": "IKHWA INVESTMENTS",
+          "content": "'The Company', 'we', 'us', or 'our' refers to IKHWA INVESTMENTS and its affiliated companies in the country, and in other jurisdictions established from time to time."
+        },
+        "customer": {
+          "title": "'Customer', 'you' or 'your'",
+          "content": "Means any person who: (a) subscribes to, uses, or receives, or has used or received, or has applied to use or receive the company's services, or (b) communicates with the company, or (c) is considered a user of this website."
+        },
+        "personalInfo": {
+          "title": "Personal Information",
+          "content": "Means information that personally represents you, such as your full name or photograph, your account number, your email address, your payment information, your travel history to the site, or any phone numbers to identify your device (such as an Internet Protocol address). If the company can link this information or numbers to you, and does not include collective information or information that is easy to identify even when linked to other information.\n\nHowever, in any case you refuse, you may be restricted in using some of the resources available on the company's website."
+        }
+      },
+      "dataCollection": {
+        "title": "Why Does the Company Seek to Collect and Use Personal Data?",
+        "content": "The company may submit requests (as part of its recruitment procedures) to collect the following information from applicants in order to study and evaluate their applications:",
+        "items": [
+          "Company name",
+          "Contact details (name, email address, and phone numbers)",
+          "Nationality and age",
+          "Educational qualifications",
+          "Skills and competencies",
+          "Experience certificates or recommendation letters",
+          "CVs and supporting documents for job applications",
+          "Employment history",
+          "Salary and benefits breakdown",
+          "Information about directors and beneficiaries"
+        ]
+      },
+      "cookies": {
+        "title": "Collection and Use of Cookies",
+        "content": "Through the use of cookies: While you interact with our website, the company may use a browsing technology called (cookies), with the aim of collecting information without identifying its owner, and tracking your browsing patterns on our site. It is known that a cookie is a short text file containing a unique identification number that identifies your browser to the company's computers each time you visit one of our websites. These files inform the company which website pages have been visited and the number of browsers that have visited each page of the website, thus improving the experience of our website browsers. Cookies also recognize your computer, in order to save your preferences and view ads, when you revisit the site next time based on how you browsed the site previously. The company cooperates with third parties that use these cookies to help us manage traffic, research, and analytics.\n\nThe use of cookies is a standard practice in this sector, and many major browsing tools are set up to accept these files. However, you can change your browser settings to enable you to refuse to accept or collect cookies or to notify you when you receive one of these files. However, if you refuse, you may be restricted in using some of the resources available on the company's website."
+      },
+      "liability": {
+        "title": "Limits of Our Liability",
+        "items": [
+          "These terms of use do not contain anything that would exclude or limit our liability for any death or personal injury due to negligence on our part, fraud, misleading information, or any other liability that the law does not permit to be excluded or limited.",
+          "We exclude to the extent permitted by law all conditions, warranties, confirmations, and any other items that apply to our site or to any content contained therein, whether express or implied.",
+          "We are not responsible to the user for any loss or damage resulting from a contractual breach or tort liability (including negligence), or from any breach of legal duty or otherwise, even if foreseeable, arising from or in connection with the following cases: use of our site or inability to use it, or use of or reliance on any content appearing on our site.",
+          "If the user is a legal entity, please note that we do not specifically assume any liability for: loss of profits or loss of sales, business, or revenue, business disruption, loss of expected savings, loss of job opportunities, reputation or goodwill, or any indirect or consequential loss or damage.",
+          "If the user is a company customer, please note that we provide our site for domestic and personal use, and you agree to refrain from using our site for any commercial purposes, and you may not hold us liable for any loss of profits, business, business interruption, or loss of business opportunities."
+        ]
+      },
+      "intellectualProperty": {
+        "title": "Intellectual Property Rights",
+        "content": "All intellectual property rights related to this site, its contents, and materials posted on it, including without limitation text publications, designs, graphics, distinctive logos, icons, images, videos, downloads, and computer programs are the exclusive right and property of the company and its licensors and are guaranteed by copyrights, trademarks, or other intellectual property rights owned by the company or its licensors.\n\nYou may print a single copy and download the contents of any one or more pages from our site for your personal use, and you may also draw the attention of others within your organization to the content appearing on our site.\n\nYou may not modify any content on this website, in whole or in part, or publish, transmit, transfer, sell, reproduce, create derivative works from, distribute, display, or benefit from it in any way.\n\nYou are obliged to acknowledge our position (and the position of participating parties) as authors of the content contained in our site.\n\nYou are prohibited from using any part of the content available on our site for commercial purposes without obtaining permission from us or our licensors.\n\nIf you print, copy, or download any part of our site in violation of these terms of use, your right to use our site will immediately terminate and you will be obliged - according to our opinion and choice - to return or destroy copies of the materials you have prepared."
+      },
+      "access": {
+        "title": "Access to Our Site",
+        "content": "You have the right to access our site for free and without charge.\n\nWe do not provide any assurance that guarantees that our website or any part of its content will remain available at all times without interruption. Access to our site is permitted on a temporary basis. We may suspend, delete, stop, or change our site in whole or in part without prior notice and without bearing any obligation towards you as a result of our site not being available for any reason at any time and for any period of time.\n\nYou are responsible for taking all necessary measures to access our site.\n\nYou are also responsible for ensuring that all persons who browse our site via your internet connection are fully aware of these terms of use and other applicable terms and conditions and that they comply with their content."
+      },
+      "noReliance": {
+        "title": "No Reliance on Information",
+        "content": "The company confirms that it displays all information or content on the website in its current state 'as is' and does not guarantee its comprehensiveness. Therefore, the company does not make any statement or assurance guaranteeing the accuracy, reliability, or completeness of any part of the information. The responsibility for relying on the content or materials of this site rests entirely on you, and we are not responsible for any loss or damage resulting from the use of our site or any information or content available on it. You should consult a specialist to provide professional advice before taking any action or refraining from it based on the site's content, and you alone bear the responsibility of verifying that the services or information available on this site meet your specific requirements.\n\nThe company makes reasonable efforts to update the information posted on our site, however we do not make any express or implicit statement or assurance that the content contained on our site is accurate, complete, and updated."
+      },
+      "changes": {
+        "title": "Changes to This Site",
+        "content": "The purpose of preparing the content of this site's pages is limited to providing you with general information and uses only. The company reserves its right to modify the content at any time without being obliged to update any information available on the site, meaning that the content may be outdated at any time.\n\nWe do not guarantee that our website, or any content available on it, is free from errors or omissions."
+      },
+      "termsChanges": {
+        "title": "Changes to These Terms",
+        "content": "We may revise these terms at any time and include the amendments on this page.\n\nTherefore, we ask you to visit this page from time to time to view any changes we add as they are binding on you."
+      },
+      "viruses": {
+        "title": "Viruses",
+        "content": "We do not guarantee that our site is secure or free from any software bugs or viruses.\n\nYou are responsible for configuring and organizing your information technology, computer programs, and platform to access our site. You must use your own programs for protection against viruses.\n\nYou are prohibited from misusing our site by knowingly introducing viruses, privacy-breach programs (Trojans), destructive programs (worms), logic bombs, or any other malicious or technologically harmful materials. You must refrain from attempting illegal access to our site or to the server hosting our site or any other server, computer, or database linked to our site. You are also prohibited from exposing our site to a denial of service attack or to a distributed denial of service attack. We will inform the relevant law enforcement authorities of any such breach and cooperate with them and disclose your identity to those authorities. In the event of such a breach, your right to use our site will immediately terminate."
+      },
+      "linking": {
+        "title": "Linking to Our Site",
+        "content": "You may link to our home page provided you do so in a transparent and legal manner and do not harm or exploit our reputation.\n\nYou may not create any link that suggests there is an association, approval, or authorization from us when there is none.\n\nYou are prohibited from creating a link to our site on any website that you do not own.\n\nOur site may not be displayed framed on any other site, and you may not create a link to any part of our site other than the home page.\n\nWe reserve our right to cancel linking permission without notice.\n\nYou must verify that the website you are linking from complies with the content standards stipulated in paragraph 13 below in all respects.\n\nIf you wish to use any content on our site other than what is stated above, please contact us at contact@ikhwainvestments.com."
+      },
+      "thirdPartyLinks": {
+        "title": "Third Party Links and Resources on Our Website",
+        "content": "This website may contain links to external websites on the internet owned and operated by third parties, and their presence may not be interpreted as approval from us of those links or of any information you may obtain from those sites. We emphasize that the purpose of providing these links is merely to inform and benefit from them. The company does not have the ability to control any third-party website and is not responsible for its availability or its content of information and materials. If you have any inquiries about those links or the content posted on those external sites, please contact the site administrator or supervisor. The company does not bear any obligation regarding the content of any website you browse through our site and we are not responsible for any loss or damage resulting from your use of it."
+      },
+      "websiteUse": {
+        "title": "Your Use of the Website",
+        "intro": "Your use of our website means that you agree to refrain from:",
+        "items": [
+          "Doing anything that would encourage, cause, or carry out any criminal act",
+          "Using our website for any purpose other than personal use",
+          "Using the site for any illegal purpose or prohibited under these terms of use",
+          "Sending emails or transferring or publishing any content that, at our sole discretion, is defamatory, obscene, infringing on copyright or the rights of any third party, profane, inappropriate, threatening, hateful, harassing, hate-based, insulting, or terroristic directed at an individual or group of individuals based on religion, gender, sexual orientation, race, age, disability, or if it is illegal in any other respect",
+          "Advertising or promoting any products or services of your own or of any third party and sending 'spam and unwanted' emails",
+          "Transferring files containing viruses, Trojan horses, or other malware",
+          "Accessing or attempting to access other users' accounts or breaching or attempting to breach our site's security measures"
+        ]
+      },
+      "account": {
+        "title": "Your Account and Password",
+        "items": [
+          "If you choose or are provided with an identification number, password, or any other information as part of our security procedures, you are obliged to treat that information with complete confidentiality and refrain from disclosing it to any third party.",
+          "We have the right to disable any identification code or password at any time, whether chosen by you or allocated by us if we believe you have failed to comply with any of the provisions of these terms of use.",
+          "If you know or suspect that another person has become aware of your identification code or password, you are obliged to notify us immediately at contact@ikhwainvestments.com."
+        ]
+      },
+      "indemnity": {
+        "title": "Indemnity",
+        "content": "You agree to indemnify the company and its affiliated companies, directors, owners, employees, and agents and hold them harmless from all claims, obligations, losses, costs, and expenses including legal fees incurred as a result of the content you share or your violation of these terms of use or any breach or infringement on your part of intellectual property laws."
+      },
+      "suspension": {
+        "title": "Suspension or Termination of Your Access to the Site",
+        "content": "The company reserves its right - at its sole discretion - to restrict, suspend, or terminate your access to the site or any part of it at any time for any reason and without prior notice. The company has the right - without prior notice or bearing any responsibility - to change, suspend, or stop the site or any aspect of it at any time, including the availability of any content."
+      },
+      "governingLaw": {
+        "title": "Governing Law",
+        "content": "The laws of the Kingdom of Morocco as applied in the Fez-Meknes region shall govern your use of this website and any dispute arising from that use. Jurisdiction for resolving any disputes arising in connection with these terms of use shall be vested in the civil courts in the Fez-Meknes region."
+      },
+      "contact": {
+        "title": "Contact Us",
+        "content": "To contact us, please email us at: contact@ikhwainvestments.com."
       }
     }
   }

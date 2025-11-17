@@ -4,7 +4,7 @@ import { useLocale } from 'next-intl';
 import { useState, useEffect, useRef, useMemo, useCallback } from 'react';
 
 const languages = [
-  { code: 'ar', name: 'العربية', flag: '🇸🇦' },
+  { code: 'ar', name: 'العربية', flag: 'MA' },
   { code: 'en', name: 'English', flag: '🇺🇸' },
   { code: 'fr', name: 'Français', flag: '🇫🇷' },
 ] as const;
@@ -14,16 +14,22 @@ const SUPPORTED_LOCALES = ['ar', 'en', 'fr'] as const;
 export default function NavbarLanguageSwitcher() {
   const locale = useLocale();
   const [isOpen, setIsOpen] = useState(false);
+  const [mounted, setMounted] = useState(false);
   const dropdownRef = useRef<HTMLDivElement>(null);
+
+  // Ensure component is mounted before accessing client-side features
+  useEffect(() => {
+    setMounted(true);
+  }, []);
 
   // Memoized function to get locale from URL path
   const currentLocaleFromPath = useMemo(() => {
-    if (typeof window === 'undefined') return locale;
+    if (!mounted || typeof window === 'undefined') return locale;
 
     const pathSegments = window.location.pathname.split('/').filter(Boolean);
     const pathLocale = pathSegments[0];
     return SUPPORTED_LOCALES.includes(pathLocale as typeof SUPPORTED_LOCALES[number]) ? pathLocale : locale;
-  }, [locale]);
+  }, [locale, mounted]);
 
   // Use path locale as priority, fallback to useLocale
   const activeLocale = currentLocaleFromPath;
@@ -80,7 +86,7 @@ export default function NavbarLanguageSwitcher() {
       {/* Language Button */}
       <button
         onClick={() => setIsOpen(!isOpen)}
-        className="navbar-language-switcher flex items-center gap-2 bg-transparent border border-white/30 rounded px-3 py-1 text-sm font-medium text-white hover:bg-white/10 focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-green-500 cursor-pointer"
+        className="navbar-language-switcher cursor-pointer flex items-center gap-2 bg-transparent border border-white/30 rounded px-3 py-1 text-sm font-medium text-white hover:bg-white/10 focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-green-500 "
       >
         <span>{currentLanguage.flag}</span>
         <span>{currentLanguage.name}</span>

@@ -68,7 +68,7 @@ const Navbar: React.FC<NavbarProps> = ({ className = '' }) => {
     <nav
       className={`
         fixed top-0 left-0 right-0 z-50
-        bg-black/20 backdrop-blur-md border-b border-white/10
+        bg-black/50 backdrop-blur-md border-b border-white/10
         flex justify-between items-center transition-all duration-300
         navbar-padding-responsive
         ${className}
@@ -76,13 +76,14 @@ const Navbar: React.FC<NavbarProps> = ({ className = '' }) => {
     >
       {/* Left side: Logo and Navigation */}
       <div className="flex items-center gap-8">
-        <Link href="/" className="flex items-start">
+        <Link href="/" className="flex items-center relative z-10">
           <Image
             src="/logo.png"
-            alt="Logo"
-            width={92}
-            height={52}
-            className="navbar-logo"
+            alt="IKHWA INVESTMENTS Logo"
+            width={120}
+            height={85}
+            className="navbar-logo -my-4"
+            style={{ objectFit: 'contain' }}
           />
         </Link>
 
@@ -93,11 +94,11 @@ const Navbar: React.FC<NavbarProps> = ({ className = '' }) => {
               <Link
                 href={item.href}
                 onClick={(e) => handleNavClick(e, item.href)}
-                className="text-white hover:text-green-400 transition-colors duration-300 relative group navbar-text-responsive"
+                className="text-white hover:text-green-400 transition-colors duration-300 relative group navbar-text-responsive pb-1"
                 style={getNavbarFontStyles()}
               >
                 {t(item.key)}
-                <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-green-400 transition-all duration-300 group-hover:w-full"></span>
+                <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-green-400 transition-all duration-300 group-hover:w-full"></span>
               </Link>
             </li>
           ))}

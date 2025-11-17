@@ -74,7 +74,7 @@
       "message": "Page créée avec succès - Le système fonctionne parfaitement!",
       "companyInfo": {
         "title": "Informations sur l'entreprise",
-        "description": "Ikhwa Investments, une entreprise marocaine faisant partie du groupe The Ikhwa Network, se spécialise dans la création d'entreprises. Notre objectif principal est de créer une plateforme intégrée et une structure pour les investisseurs marocains et étrangers, en soutenant leurs lancements de projets avec des stratégies adaptées à leurs objectifs financiers et d'investissement. Nous rationalisons également toutes les procédures administratives pour les investisseurs internationaux, leur donnant accès au marché économique marocain."
+        "description": "IKHWA INVESTMENTS, une entreprise marocaine faisant partie du groupe IKHWA NETWORK, se spécialise dans la création d'entreprises. Notre objectif principal est de créer une plateforme intégrée et une structure pour les investisseurs marocains et étrangers, en soutenant leurs lancements de projets avec des stratégies adaptées à leurs objectifs financiers et d'investissement. Nous rationalisons également toutes les procédures administratives pour les investisseurs internationaux, leur donnant accès au marché économique marocain."
       },
       "quickLinks": {
         "title": "Liens rapides",
@@ -93,20 +93,21 @@
         "title": "Suivez-nous",
         "facebook": "Facebook",
         "instagram": "Instagram",
-        "twitter": "Twitter",
+        "twitter": "X",
         "linkedin": "LinkedIn",
-        "telegram": "Telegram"
+        "telegram": "Telegram",
+        "youtube": "YouTube"
       }
     }
   },
   "aboutUs": {
     "title": "À propos",
     "titleHighlight": "de nous",
-    "description": "Ikhwa Investments, une entreprise marocaine faisant partie du groupe Ikhwa Network, se spécialise dans la création d'entreprises. Notre objectif principal est de créer une plateforme intégrée et une structure pour les investisseurs marocains et étrangers, en soutenant leurs lancements de projets avec des stratégies adaptées à leurs objectifs financiers et d'investissement. Nous rationalisons également toutes les procédures administratives pour les investisseurs internationaux, leur donnant accès au marché économique marocain.",
+    "description": "IKHWA INVESTMENTS, une entreprise marocaine faisant partie du groupe IKHWA NETWORK, se spécialise dans la création d'entreprises. Notre objectif principal est de créer une plateforme intégrée et une structure pour les investisseurs marocains et étrangers, en soutenant leurs lancements de projets avec des stratégies adaptées à leurs objectifs financiers et d'investissement. Nous rationalisons également toutes les procédures administratives pour les investisseurs internationaux, leur donnant accès au marché économique marocain.",
     "ceoMessage": {
       "title": "Message du PDG de l'entreprise",
       "content": "Notre entreprise sert de partenaire stratégique responsable de l'établissement et de la gestion de vos projets avec une approche pratique et technique. Nous canalisons vos efforts vers la croissance de votre investissement et l'élévation de vos objectifs commerciaux et économiques. Notre entreprise s'efforce d'être votre bras droit dans toutes les questions administratives et marketing.",
-      "signature": "Mohammed Saad Al Raji",
+      "signature": "Mohamed Saàd ERAJI",
       "position": "Directeur Général et PDG"
     }
   },
@@ -176,15 +177,15 @@
     "subtitle": "Nous vous fournissons une collection de réponses aux questions concernant l'entreprise",
     "questions": {
       "0": {
-        "question": "Qu'est-ce qu'IKHWA Investments ?",
-        "answer": "IKHWA Investments est une entreprise active dans le soutien à l'investissement et la création de plateformes commerciales au Maroc. Notre siège principal est actuellement situé dans la capitale ismaélienne, Meknès. Fondée en 2024 par des hommes d'affaires marocains."
+        "question": "Qu'est-ce qu'IKHWA INVESTMENTS ?",
+        "answer": "IKHWA INVESTMENTS est une entreprise active dans le soutien à l'investissement et la création de plateformes commerciales au Maroc. Notre siège principal est actuellement situé dans la capitale ismaélienne, Meknès. Fondée en 2024 par des hommes d'affaires marocains."
       },
       "1": {
         "question": "Quelle est la forme juridique et le nom de l'entreprise ?",
-        "answer": "L'entreprise opère sous le nom commercial 'IKHWA Investments' et est une société à responsabilité limitée légalement enregistrée au Royaume du Maroc."
+        "answer": "L'entreprise opère sous le nom commercial 'IKHWA INVESTMENTS' et est une société à responsabilité limitée légalement enregistrée au Royaume du Maroc."
       },
       "2": {
-        "question": "Où se trouve IKHWA Investments ?",
+        "question": "Où se trouve IKHWA INVESTMENTS ?",
         "answer": "Le siège de l'entreprise est situé dans la ville de Meknès, la capitale ismaélienne, Royaume du Maroc, avec des plans d'expansion vers d'autres villes."
       },
       "3": {
@@ -211,7 +212,7 @@
     },
     "address": {
       "title": "Adresse",
-      "location": "Villa 194, Ryad Toulal 1, Meknès"
+      "location": "VILLA N194 LOT RIAD TOULAL 1 MEKNÈS"
     },
     "workingHours": {
       "title": "Heures de travail:",
@@ -324,6 +325,140 @@
           "title": "Formulaires officiels",
           "description": "Préparation et impression de tous les formulaires officiels de l'entreprise tels que le sceau officiel, la correspondance et tous les documents nécessaires pour commencer les opérations."
         }
+      }
+    }
+  },
+  "Terms": {
+    "hero": {
+      "title": "Conditions Générales d'Utilisation",
+      "description": "Découvrez les termes et conditions qui régissent votre utilisation de l'application et définissent vos droits et obligations pour garantir une expérience sûre et organisée."
+    },
+    "sections": {
+      "commitment": {
+        "title": "Notre Engagement envers Vous",
+        "content": "Ce site Web est la propriété et est exploité par IKHWA INVESTMENTS, et nous faisons référence à IKHWA INVESTMENTS sur ce site comme 'nous', 'notre' ou 'nos'.\n\nCes conditions d'utilisation s'appliquent à votre utilisation de notre site Web, veuillez donc les lire attentivement avant de parcourir le site. Vous souhaiterez peut-être imprimer une copie de ces conditions pour référence future.\n\nEn utilisant, accédant ou naviguant sur le site Web de la société, vous acceptez et convenez de vous conformer aux conditions d'utilisation énoncées ici, que vous soyez un visiteur ou un utilisateur enregistré. Si vous n'acceptez pas ces conditions, la société ne vous autorise pas à utiliser ce site en aucune circonstance."
+      },
+      "privacy": {
+        "title": "Confidentialité et Cookies",
+        "content": "Notre politique de confidentialité applicable explique la base sur laquelle la société collecte et utilise les données personnelles, les cookies et autres outils similaires utilisés par nous et comment définir vos préférences en matière de cookies."
+      },
+      "companyInfo": {
+        "title": "À propos de la Société",
+        "content": "Ce site Web est exploité par IKHWA INVESTMENTS BY IKHWA NETWORK SARL.\n\nIKHWA INVESTMENTS est une société à responsabilité limitée."
+      },
+      "definitions": {
+        "title": "Définitions Clés",
+        "company": {
+          "title": "IKHWA INVESTMENTS",
+          "content": "'La Société', 'nous', 'notre' ou 'nos' fait référence à IKHWA INVESTMENTS et à ses sociétés affiliées dans le pays, et dans d'autres juridictions établies de temps à autre."
+        },
+        "customer": {
+          "title": "'Client', 'vous' ou 'votre'",
+          "content": "Désigne toute personne qui : (a) s'abonne, utilise ou reçoit, ou a utilisé ou reçu, ou a demandé à utiliser ou recevoir les services de la société, ou (b) communique avec la société, ou (c) est considérée comme un utilisateur de ce site Web."
+        },
+        "personalInfo": {
+          "title": "Informations Personnelles",
+          "content": "Désigne les informations qui vous représentent personnellement, telles que votre nom complet ou votre photographie, votre numéro de compte, votre adresse e-mail, vos informations de paiement, votre historique de visite du site, ou tout numéro de téléphone pour identifier votre appareil (tel qu'une adresse de protocole Internet). Si la société peut lier ces informations ou numéros à vous, et n'inclut pas les informations collectives ou les informations faciles à identifier même lorsqu'elles sont liées à d'autres informations.\n\nCependant, dans tous les cas où vous refusez, vous pouvez être limité dans l'utilisation de certaines des ressources disponibles sur le site Web de la société."
+        }
+      },
+      "dataCollection": {
+        "title": "Pourquoi la Société Cherche-t-elle à Collecter et Utiliser des Données Personnelles ?",
+        "content": "La société peut soumettre des demandes (dans le cadre de ses procédures de recrutement) pour collecter les informations suivantes auprès des candidats afin d'étudier et d'évaluer leurs candidatures :",
+        "items": [
+          "Nom de la société",
+          "Coordonnées (nom, adresse e-mail et numéros de téléphone)",
+          "Nationalité et âge",
+          "Qualifications académiques",
+          "Compétences et aptitudes",
+          "Certificats d'expérience ou lettres de recommandation",
+          "CV et documents justificatifs pour les candidatures",
+          "Historique d'emploi",
+          "Répartition des salaires et avantages",
+          "Informations sur les administrateurs et bénéficiaires"
+        ]
+      },
+      "cookies": {
+        "title": "Collecte et Utilisation des Cookies",
+        "content": "Par l'utilisation de cookies : Lorsque vous interagissez avec notre site Web, la société peut utiliser une technologie de navigation appelée (cookies), dans le but de collecter des informations sans identifier son propriétaire, et de suivre vos modèles de navigation sur notre site. On sait qu'un cookie est un court fichier texte contenant un numéro d'identification unique qui identifie votre navigateur aux ordinateurs de la société chaque fois que vous visitez l'un de nos sites Web. Ces fichiers informent la société des pages du site Web qui ont été visitées et du nombre de navigateurs qui ont visité chaque page du site Web, améliorant ainsi l'expérience des navigateurs de notre site Web. Les cookies reconnaissent également votre ordinateur, afin de sauvegarder vos préférences et de voir les publicités, lorsque vous revisitez le site la prochaine fois en fonction de la façon dont vous avez parcouru le site précédemment. La société coopère avec des tiers qui utilisent ces cookies pour nous aider à gérer le trafic, la recherche et l'analyse.\n\nL'utilisation de cookies est une pratique standard dans ce secteur, et de nombreux principaux outils de navigation sont configurés pour accepter ces fichiers. Cependant, vous pouvez modifier les paramètres de votre navigateur pour vous permettre de refuser d'accepter ou de collecter des cookies ou pour vous informer lorsque vous recevez l'un de ces fichiers. Cependant, si vous refusez, vous pouvez être limité dans l'utilisation de certaines des ressources disponibles sur le site Web de la société."
+      },
+      "liability": {
+        "title": "Limites de Notre Responsabilité",
+        "items": [
+          "Ces conditions d'utilisation ne contiennent rien qui exclurait ou limiterait notre responsabilité pour tout décès ou blessure corporelle due à une négligence de notre part, fraude, informations trompeuses, ou toute autre responsabilité que la loi ne permet pas d'exclure ou de limiter.",
+          "Nous excluons dans la mesure permise par la loi toutes les conditions, garanties, confirmations et tout autre élément qui s'applique à notre site ou à tout contenu qu'il contient, qu'il soit exprès ou implicite.",
+          "Nous ne sommes pas responsables envers l'utilisateur de toute perte ou dommage résultant d'une rupture contractuelle ou d'une responsabilité délictuelle (y compris la négligence), ou de toute violation d'une obligation légale ou autre, même si prévisible, découlant de ou en relation avec les cas suivants : utilisation de notre site ou incapacité à l'utiliser, ou utilisation ou recours à tout contenu apparaissant sur notre site.",
+          "Si l'utilisateur est une entité juridique, veuillez noter que nous n'assumons spécifiquement aucune responsabilité pour : perte de profits ou perte de ventes, d'activité ou de revenus, interruption d'activité, perte d'économies prévues, perte d'opportunités d'emploi, de réputation ou de fonds de commerce, ou toute perte ou dommage indirect ou consécutif.",
+          "Si l'utilisateur est un client de la société, veuillez noter que nous fournissons notre site pour une utilisation domestique et personnelle, et vous acceptez de vous abstenir d'utiliser notre site à des fins commerciales, et vous ne pouvez pas nous tenir responsables de toute perte de profits, d'activité, d'interruption d'activité ou de perte d'opportunités commerciales."
+        ]
+      },
+      "intellectualProperty": {
+        "title": "Droits de Propriété Intellectuelle",
+        "content": "Tous les droits de propriété intellectuelle liés à ce site, à son contenu et aux matériaux publiés dessus, y compris sans limitation les publications textuelles, les conceptions, les graphiques, les logos distinctifs, les icônes, les images, les vidéos, les téléchargements et les programmes informatiques sont le droit et la propriété exclusive de la société et de ses concédants de licence et sont garantis par des droits d'auteur, des marques commerciales ou d'autres droits de propriété intellectuelle appartenant à la société ou à ses concédants de licence.\n\nVous pouvez imprimer une seule copie et télécharger le contenu d'une ou plusieurs pages de notre site pour votre usage personnel, et vous pouvez également attirer l'attention d'autres personnes au sein de votre organisation sur le contenu apparaissant sur notre site.\n\nVous ne pouvez pas modifier tout contenu sur ce site Web, en tout ou en partie, ou le publier, le transmettre, le transférer, le vendre, le reproduire, créer des œuvres dérivées, le distribuer, l'afficher ou en bénéficier de quelque manière que ce soit.\n\nVous êtes obligé de reconnaître notre position (et la position des parties participantes) en tant qu'auteurs du contenu contenu dans notre site.\n\nVous êtes interdit d'utiliser toute partie du contenu disponible sur notre site à des fins commerciales sans obtenir l'autorisation de nous ou de nos concédants de licence.\n\nSi vous imprimez, copiez ou téléchargez toute partie de notre site en violation de ces conditions d'utilisation, votre droit d'utiliser notre site se terminera immédiatement et vous serez obligé - selon notre opinion et choix - de retourner ou détruire les copies des matériaux que vous avez préparés."
+      },
+      "access": {
+        "title": "Accès à Notre Site",
+        "content": "Vous avez le droit d'accéder à notre site gratuitement et sans frais.\n\nNous ne fournissons aucune assurance garantissant que notre site Web ou toute partie de son contenu restera disponible en tout temps sans interruption. L'accès à notre site est autorisé sur une base temporaire. Nous pouvons suspendre, supprimer, arrêter ou modifier notre site en tout ou en partie sans préavis et sans assumer aucune obligation envers vous en raison de l'indisponibilité de notre site pour quelque raison que ce soit à tout moment et pour toute période de temps.\n\nVous êtes responsable de prendre toutes les mesures nécessaires pour accéder à notre site.\n\nVous êtes également responsable de vous assurer que toutes les personnes qui naviguent sur notre site via votre connexion Internet sont pleinement conscientes de ces conditions d'utilisation et d'autres termes et conditions applicables et qu'elles se conforment à leur contenu."
+      },
+      "noReliance": {
+        "title": "Non-dépendance aux Informations",
+        "content": "La société confirme qu'elle affiche toutes les informations ou le contenu sur le site Web dans son état actuel 'tel quel' et ne garantit pas son exhaustivité. Par conséquent, la société ne fait aucune déclaration ni assurance garantissant l'exactitude, la fiabilité ou l'exhaustivité de toute partie des informations. La responsabilité de s'appuyer sur le contenu ou les matériaux de ce site repose entièrement sur vous, et nous ne sommes pas responsables de toute perte ou dommage résultant de l'utilisation de notre site ou de toute information ou contenu disponible dessus. Vous devriez consulter un spécialiste pour fournir des conseils professionnels avant de prendre toute mesure ou de s'abstenir en fonction du contenu du site, et vous seul assumez la responsabilité de vérifier que les services ou informations disponibles sur ce site répondent à vos exigences spécifiques.\n\nLa société fait des efforts raisonnables pour mettre à jour les informations publiées sur notre site, cependant nous ne faisons aucune déclaration ou assurance expresse ou implicite que le contenu contenu sur notre site est précis, complet et à jour."
+      },
+      "changes": {
+        "title": "Modifications de ce Site",
+        "content": "Le but de la préparation du contenu des pages de ce site est limité à vous fournir des informations et des utilisations générales uniquement. La société se réserve le droit de modifier le contenu à tout moment sans être obligée de mettre à jour toute information disponible sur le site, ce qui signifie que le contenu peut être obsolète à tout moment.\n\nNous ne garantissons pas que notre site Web, ou tout contenu disponible dessus, est exempt d'erreurs ou d'omissions."
+      },
+      "termsChanges": {
+        "title": "Modifications de ces Conditions",
+        "content": "Nous pouvons réviser ces conditions à tout moment et inclure les modifications sur cette page.\n\nPar conséquent, nous vous demandons de visiter cette page de temps en temps pour voir les modifications que nous ajoutons car elles vous lient."
+      },
+      "viruses": {
+        "title": "Virus",
+        "content": "Nous ne garantissons pas que notre site est sécurisé ou exempt de tout bogue logiciel ou virus.\n\nVous êtes responsable de la configuration et de l'organisation de vos programmes de technologie de l'information, d'ordinateur et de plateforme pour accéder à notre site. Vous devez utiliser vos propres programmes pour la protection contre les virus.\n\nVous êtes interdit d'abuser de notre site en introduisant sciemment des virus, des programmes de violation de la vie privée (Trojans), des programmes destructeurs (vers), des bombes logiques ou tout autre matériel malveillant ou technologiquement nuisible. Vous devez vous abstenir de tenter un accès illégal à notre site ou au serveur hébergeant notre site ou à tout autre serveur, ordinateur ou base de données liés à notre site. Vous êtes également interdit d'exposer notre site à une attaque par déni de service ou à une attaque par déni de service distribué. Nous informerons les autorités compétentes chargées de l'application de la loi de toute violation de ce type et coopérerons avec elles et divulguerons votre identité à ces autorités. En cas de violation de ce type, votre droit d'utiliser notre site se terminera immédiatement."
+      },
+      "linking": {
+        "title": "Lien vers Notre Site",
+        "content": "Vous pouvez créer un lien vers notre page d'accueil à condition de le faire de manière transparente et légale et de ne pas nuire ou exploiter notre réputation.\n\nVous ne pouvez pas créer de lien suggérant qu'il existe une association, approbation ou autorisation de notre part lorsqu'il n'y en a pas.\n\nVous êtes interdit de créer un lien vers notre site sur tout site Web que vous ne possédez pas.\n\nNotre site ne peut pas être affiché encadré sur tout autre site, et vous ne pouvez pas créer de lien vers toute partie de notre site autre que la page d'accueil.\n\nNous nous réservons le droit d'annuler l'autorisation de lien sans préavis.\n\nVous devez vérifier que le site Web à partir duquel vous créez un lien est conforme aux normes de contenu stipulées au paragraphe 13 ci-dessous à tous égards.\n\nSi vous souhaitez utiliser tout contenu sur notre site autre que ce qui est indiqué ci-dessus, veuillez nous contacter à contact@ikhwainvestments.com."
+      },
+      "thirdPartyLinks": {
+        "title": "Liens et Ressources de Tiers sur Notre Site Web",
+        "content": "Ce site Web peut contenir des liens vers des sites Web externes sur Internet appartenant à et exploités par des tiers, et leur présence ne peut être interprétée comme une approbation de notre part de ces liens ou de toute information que vous pourriez obtenir de ces sites. Nous soulignons que le but de fournir ces liens est simplement de les informer et d'en bénéficier. La société n'a pas la capacité de contrôler tout site Web tiers et n'est pas responsable de sa disponibilité ou de son contenu d'informations et de matériaux. Si vous avez des questions concernant ces liens ou le contenu publié sur ces sites externes, veuillez contacter l'administrateur ou le superviseur du site. La société n'assume aucune obligation concernant le contenu de tout site Web que vous parcourez via notre site et nous ne sommes pas responsables de toute perte ou dommage résultant de votre utilisation."
+      },
+      "websiteUse": {
+        "title": "Votre Utilisation du Site Web",
+        "intro": "Votre utilisation de notre site Web signifie que vous acceptez de vous abstenir de :",
+        "items": [
+          "Faire quoi que ce soit qui encouragerait, causerait ou exécuterait tout acte criminel",
+          "Utiliser notre site Web à toute fin autre qu'une utilisation personnelle",
+          "Utiliser le site à toute fin illégale ou interdite en vertu de ces conditions d'utilisation",
+          "Envoyer des e-mails ou transférer ou publier tout contenu qui, à notre seule discrétion, est diffamatoire, obscène, portant atteinte aux droits d'auteur ou aux droits de tout tiers, profane, inapproprié, menaçant, haineux, harcelant, basé sur la haine, insultant ou terroriste dirigé vers un individu ou un groupe d'individus sur la base de la religion, du sexe, de l'orientation sexuelle, de la race, de l'âge, du handicap ou s'il est illégal à tout autre égard",
+          "Publicité ou promotion de tout produit ou service de votre propre chef ou de tout tiers et envoi d'e-mails 'spam et non sollicités'",
+          "Transférer des fichiers contenant des virus, des chevaux de Troie ou d'autres logiciels malveillants",
+          "Accéder ou tenter d'accéder aux comptes d'autres utilisateurs ou violer ou tenter de violer les mesures de sécurité de notre site"
+        ]
+      },
+      "account": {
+        "title": "Votre Compte et Mot de Passe",
+        "items": [
+          "Si vous choisissez ou êtes fourni avec un numéro d'identification, un mot de passe ou toute autre information dans le cadre de nos procédures de sécurité, vous êtes obligé de traiter ces informations avec une confidentialité totale et de vous abstenir de les divulguer à tout tiers.",
+          "Nous avons le droit de désactiver tout code d'identification ou mot de passe à tout moment, qu'il soit choisi par vous ou attribué par nous si nous estimons que vous n'avez pas respecté l'une des dispositions de ces conditions d'utilisation.",
+          "Si vous savez ou soupçonnez qu'une autre personne a pris connaissance de votre code d'identification ou de votre mot de passe, vous êtes obligé de nous en informer immédiatement à contact@ikhwainvestments.com."
+        ]
+      },
+      "indemnity": {
+        "title": "Indemnité",
+        "content": "Vous acceptez d'indemniser la société et ses sociétés affiliées, administrateurs, propriétaires, employés et agents et de les dégager de toutes réclamations, obligations, pertes, coûts et dépenses, y compris les frais juridiques encourus en raison du contenu que vous partagez ou de votre violation de ces conditions d'utilisation ou de toute violation ou infraction de votre part aux lois sur la propriété intellectuelle."
+      },
+      "suspension": {
+        "title": "Suspension ou Résiliation de Votre Accès au Site",
+        "content": "La société se réserve le droit - à sa seule discrétion - de restreindre, suspendre ou résilier votre accès au site ou à toute partie de celui-ci à tout moment pour quelque raison que ce soit et sans préavis. La société a le droit - sans préavis ou sans assumer aucune responsabilité - de modifier, suspendre ou arrêter le site ou tout aspect de celui-ci à tout moment, y compris la disponibilité de tout contenu."
+      },
+      "governingLaw": {
+        "title": "Loi Applicable",
+        "content": "Les lois du Royaume du Maroc telles qu'appliquées dans la région de Fès-Meknès régissent votre utilisation de ce site Web et tout litige découlant de cette utilisation. La compétence pour résoudre tout litige découlant de ces conditions d'utilisation est confiée aux tribunaux civils de la région de Fès-Meknès."
+      },
+      "contact": {
+        "title": "Nous Contacter",
+        "content": "Pour nous contacter, veuillez nous envoyer un e-mail à : contact@ikhwainvestments.com."
       }
     }
   }

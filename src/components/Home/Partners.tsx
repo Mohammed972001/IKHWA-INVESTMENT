@@ -36,9 +36,10 @@ const Partners = () => {
         <Image
           src={partner.src}
           alt={partner.name}
-          width={isMobile ? 120 : 160}
+          width={isMobile ? 180 : 160}
           height={isMobile ? 80 : 100}
-          className={`${isMobile ? 'h-14 sm:h-18' : 'h-20 xl:h-24'} w-auto mx-auto object-contain filter hover:scale-110 transition-transform duration-300`}
+          loading="lazy"
+          className={`${isMobile ? 'h-14 sm:h-18' : 'h-20 xl:h-24  scale-125 '} w-auto mx-auto object-contain filter hover:scale-110 transition-transform duration-300`}
         />
       </div>
     </div>
@@ -54,7 +55,7 @@ const Partners = () => {
             alt=""
             fill
             className="object-contain object-center lg:object-right opacity-20 lg:opacity-30"
-            priority
+            loading="lazy"
           />
         </div>
       </div>

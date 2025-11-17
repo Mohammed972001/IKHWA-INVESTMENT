@@ -205,7 +205,7 @@ export default function CountryCodeSelect({
                 >
                     {COUNTRY_CODES.map((country) => (
                         <option
-                            key={country.code}
+                            key={`${country.code}-${country.flag}`}
                             value={country.code}
                             style={{
                                 padding: '6px 8px',

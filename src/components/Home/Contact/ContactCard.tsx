@@ -60,7 +60,9 @@ export default function ContactCard({
                     ...getFontStyles(locale),
                     color: '#ffffff',
                     fontWeight: 400,
-                    textAlign: 'start'
+                    textAlign: 'start',
+                    wordSpacing: '0.25em',
+                    whiteSpace: 'normal'
                 }}
             >
                 {description}

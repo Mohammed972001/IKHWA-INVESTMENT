@@ -1,13 +1,12 @@
 {
-  "name": "ikhhwa-unvesment",
-  "version": "0.1.0",
-  "private": true,
- "scripts": {
-  "dev": "next dev --turbopack",
-  "build": "next build --turbopack",
-  "start": "next start -p $PORT",
-  "lint": "eslint"
-},
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build --turbopack",
+    "start": "next start -p $PORT",
+    "lint": "eslint",
+    "analyze": "ANALYZE=true npm run build",
+    "lighthouse": "lighthouse http://localhost:3000 --view"
+  },
   "dependencies": {
     "next": "15.5.3",
     "next-intl": "^4.3.9",
@@ -17,12 +16,14 @@
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
+    "@next/bundle-analyzer": "^15.5.3",
     "@tailwindcss/postcss": "^4",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "eslint": "^9",
     "eslint-config-next": "15.5.3",
+    "lighthouse": "^12.2.1",
     "tailwindcss": "^4",
     "typescript": "^5"
   }

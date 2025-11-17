@@ -26,6 +26,7 @@
 .footer-logo-section {
   flex: 0 0 auto;
   max-width: 200px;
+  margin-top: -20px;
 }
 
 .footer-logo {
@@ -37,6 +38,22 @@
 .logo-image {
   object-fit: contain;
   filter: brightness(0) invert(1);
+  max-width: 100%;
+  width: 100%;
+}
+
+@media (max-width: 1024px) {
+  .footer-logo-section {
+    max-width: 120px;
+    margin-top: -15px;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer-logo-section {
+    max-width: 100px;
+    margin-top: -10px;
+  }
 }
 
 /* Company Info Section */

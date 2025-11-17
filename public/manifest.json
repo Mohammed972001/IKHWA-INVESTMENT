@@ -1,0 +1,27 @@
+{
+  "name": "IKHWA INVESTMENTS",
+  "short_name": "IKHWA",
+  "description": "Your trusted partner for investment solutions and company formation in Morocco",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#1a1a1a",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/logo.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/logo.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["business", "finance", "productivity"],
+  "lang": "en",
+  "dir": "ltr"
+}

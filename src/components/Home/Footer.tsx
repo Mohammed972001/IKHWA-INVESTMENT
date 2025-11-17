@@ -3,9 +3,12 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import { useTranslation } from '@/hooks/useTranslation';
+import { getFontStyles } from '@/utils/fonts';
+import { useDetectedLocale } from '@/hooks/useDetectedLocale';
 
 const Footer = () => {
     const { t, locale } = useTranslation();
+    const detectedLocale = useDetectedLocale();
 
     const handleFooterNavClick = (e: React.MouseEvent<HTMLAnchorElement>, href: string) => {
         if (href.includes('#')) {
@@ -36,27 +39,32 @@ const Footer = () => {
         {
             name: t('Home.footer.followUs.facebook'),
             icon: '/Home/Footer/Fecbook.svg',
-            url: '#'
+            url: 'https://www.facebook.com/ikhwainvestment'
         },
         {
             name: t('Home.footer.followUs.instagram'),
             icon: '/Home/Footer/mdi_instagram.svg',
-            url: '#'
+            url: 'https://www.instagram.com/ikhwainvestments'
         },
         {
             name: t('Home.footer.followUs.twitter'),
             icon: '/Home/Footer/line-md_twitter-x.svg',
-            url: '#'
+            url: 'https://x.com/ikhwainvestment'
         },
         {
             name: t('Home.footer.followUs.linkedin'),
             icon: '/Home/Footer/ri_linkedin-fill.svg',
-            url: '#'
+            url: 'https://www.linkedin.com/showcase/ikhwainvestments'
         },
         {
             name: t('Home.footer.followUs.telegram'),
             icon: '/Home/Footer/ic_outline-telegram.svg',
-            url: '#'
+            url: 'https://t.me/ikhwainvestments'
+        },
+        {
+            name: t('Home.footer.followUs.youtube'),
+            icon: '/Home/Footer/mdi_youtube.svg',
+            url: 'https://www.youtube.com/@ikhwainvestments'
         }
     ];
 
@@ -68,30 +76,32 @@ const Footer = () => {
                     <div className="footer-logo">
                         <Image
                             src="/logo.png"
-                            alt="IKHWA Investment Logo"
-                            width={window.innerWidth < 768 ? 150 : window.innerWidth < 1024 ? 300 : 500}
-                            height={window.innerWidth < 768 ? 40 : window.innerWidth < 1024 ? 70 : 100}
+                            alt="IKHWA INVESTMENTS Logo"
+                            width={500}
+                            height={100}
                             className="logo-image"
+                            style={{ width: 'auto', height: 'auto' }}
                         />
                     </div>
                 </div>
 
                 {/* Company Information Section */}
                 <div className="footer-section footer-company-info">
-                    <h3 className="footer-title">{t('Home.footer.companyInfo.title')}</h3>
-                    <p className="footer-description">
+                    <h3 className="footer-title" style={getFontStyles(detectedLocale)}>{t('Home.footer.companyInfo.title')}</h3>
+                    <p className="footer-description" style={getFontStyles(detectedLocale)}>
                         {t('Home.footer.companyInfo.description')}
                     </p>
                 </div>
 
                 {/* Quick Links Section */}
                 <div className="footer-section footer-quick-links">
-                    <h3 className="footer-title">{t('Home.footer.quickLinks.title')}</h3>
+                    <h3 className="footer-title" style={getFontStyles(detectedLocale)}>{t('Home.footer.quickLinks.title')}</h3>
                     <ul className="footer-links-list">
                         <li>
                             <Link
                                 href={`/${locale}`}
                                 className="footer-link"
+                                style={getFontStyles(detectedLocale)}
                                 onClick={(e) => handleFooterNavClick(e, `/${locale}`)}
                             >
                                 {t('Home.footer.quickLinks.home')}
@@ -101,6 +111,7 @@ const Footer = () => {
                             <Link
                                 href={`/${locale}#about-us`}
                                 className="footer-link"
+                                style={getFontStyles(detectedLocale)}
                                 onClick={(e) => handleFooterNavClick(e, `/${locale}#about-us`)}
                             >
                                 {t('Home.footer.quickLinks.aboutUs')}
@@ -110,6 +121,7 @@ const Footer = () => {
                             <Link
                                 href={`/${locale}#services`}
                                 className="footer-link"
+                                style={getFontStyles(detectedLocale)}
                                 onClick={(e) => handleFooterNavClick(e, `/${locale}#services`)}
                             >
                                 {t('Home.footer.quickLinks.services')}
@@ -119,6 +131,7 @@ const Footer = () => {
                             <Link
                                 href={`/${locale}/CompanyFormation`}
                                 className="footer-link"
+                                style={getFontStyles(detectedLocale)}
                                 onClick={(e) => handleFooterNavClick(e, `/${locale}/CompanyFormation`)}
                             >
                                 {t('Home.footer.quickLinks.companyFormation')}
@@ -128,6 +141,7 @@ const Footer = () => {
                             <Link
                                 href={`/${locale}#contact`}
                                 className="footer-link"
+                                style={getFontStyles(detectedLocale)}
                                 onClick={(e) => handleFooterNavClick(e, `/${locale}#contact`)}
                             >
                                 {t('Home.footer.quickLinks.contactUs')}
@@ -138,15 +152,15 @@ const Footer = () => {
 
                 {/* Information Section */}
                 <div className="footer-section footer-information">
-                    <h3 className="footer-title">{t('Home.footer.information.title')}</h3>
+                    <h3 className="footer-title" style={getFontStyles(detectedLocale)}>{t('Home.footer.information.title')}</h3>
                     <ul className="footer-links-list">
                         <li>
-                            <Link href={`/${locale}/terms`} className="footer-link">
+                            <Link href={`/${locale}/terms`} className="footer-link" style={getFontStyles(detectedLocale)}>
                                 {t('Home.footer.information.termsConditions')}
                             </Link>
                         </li>
                         <li>
-                            <Link href={`/${locale}/privacy`} className="footer-link">
+                            <Link href={`/${locale}/privacy`} className="footer-link" style={getFontStyles(detectedLocale)}>
                                 {t('Home.footer.information.privacyPolicy')}
                             </Link>
                         </li>
@@ -155,13 +169,14 @@ const Footer = () => {
 
                 {/* Follow Us Section */}
                 <div className="footer-section footer-follow-us">
-                    <h3 className="footer-title">{t('Home.footer.followUs.title')}</h3>
+                    <h3 className="footer-title" style={getFontStyles(detectedLocale)}>{t('Home.footer.followUs.title')}</h3>
                     <ul className="footer-social-links">
                         {socialMediaLinks.map((social, index) => (
                             <li key={index} className="footer-social-item">
-                                <Link
+                                <a
                                     href={social.url}
                                     className="footer-social-link"
+                                    style={getFontStyles(detectedLocale)}
                                     target="_blank"
                                     rel="noopener noreferrer"
                                 >
@@ -171,9 +186,10 @@ const Footer = () => {
                                         width={24}
                                         height={24}
                                         className="footer-social-icon"
+                                        style={{ pointerEvents: 'none' }}
                                     />
-                                    <span className="footer-social-text">{social.name}</span>
-                                </Link>
+                                    <span className="footer-social-text" style={{ pointerEvents: 'none' }}>{social.name}</span>
+                                </a>
                             </li>
                         ))}
                     </ul>

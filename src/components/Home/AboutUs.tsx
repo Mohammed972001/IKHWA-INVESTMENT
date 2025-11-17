@@ -125,7 +125,7 @@ export default function AboutUs() {
                   color: isDark ? '#ffffff' : '#000000',
                   fontSize: '18px',
                   fontWeight: 400,
-                  lineHeight: '32px',
+                  lineHeight: '29px',
 
                 }}
               >

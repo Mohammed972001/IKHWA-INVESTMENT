@@ -1,7 +1,8 @@
 /* ==========================================================================
-   FONT FACES - LATO
+   FONT FACES - LATO (Optimized)
    ========================================================================== */
 
+/* Only load essential weights - Regular and Bold */
 @font-face {
   font-family: 'Lato';
   src: url('/fonts/Lato/Lato-Regular.ttf') format('truetype');
@@ -13,23 +14,7 @@
 @font-face {
   font-family: 'Lato';
   src: url('/fonts/Lato/Lato-Bold.ttf') format('truetype');
-  font-weight: 500;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Lato';
-  src: url('/fonts/Lato/Lato-Bold.ttf') format('truetype');
   font-weight: 600;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Lato';
-  src: url('/fonts/Lato/Lato-Bold.ttf') format('truetype');
-  font-weight: 700;
   font-style: normal;
   font-display: swap;
 }

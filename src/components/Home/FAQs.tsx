@@ -102,7 +102,7 @@ const FAQs = () => {
                 {/* Question Header - Clickable */}
                 <button
                   onClick={() => toggleAccordion(index)}
-                  className="w-full  p-6 lg:p-8 focus:outline-none transition-all duration-300"
+                  className="w-full  cursor-pointer p-6 lg:p-8 focus:outline-none transition-all duration-300"
                   aria-expanded={isOpen}
                   aria-controls={`faq-answer-${index}`}
                 >
@@ -113,7 +113,7 @@ const FAQs = () => {
                         className={`font-bold transition-colors duration-300 ${isDark ? 'text-white' : 'text-black'
                           }`}
                         style={{
-                          fontSize: isMobile ? '16px' : '25px',
+                          fontSize: isMobile ? '16px' : '22px',
                           fontWeight: isMobile ? '500' : '600',
                           lineHeight: 'normal',
                           textAlign: 'right',
@@ -130,7 +130,7 @@ const FAQs = () => {
                         className={`font-bold transition-colors duration-300 ${isDark ? 'text-white' : 'text-black'
                           }`}
                         style={{
-                          fontSize: isMobile ? '16px' : '25px',
+                          fontSize: isMobile ? '16px' : '22px',
                           fontWeight: isMobile ? '500' : '600',
                           lineHeight: 'normal',
                           textAlign: 'left',
@@ -177,7 +177,7 @@ const FAQs = () => {
                       className={`transition-colors duration-300 ${isDark ? 'text-white' : 'text-black'
                         }`}
                       style={{
-                        fontSize: isMobile ? '12px' : '20px',
+                        fontSize: isMobile ? '12px' : '18px',
                         fontWeight: '400',
                         lineHeight: isMobile ? '24px' : 'normal',
                         textAlign: isRTL ? 'right' : 'left',

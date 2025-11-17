@@ -168,14 +168,13 @@ export default function ContactForm({ locale }: ContactFormProps) {
 
                 {/* Form Type Selection */}
                 <div className="flex gap-4">
-                    <label className="flex items-center">
+                    <label className="flex items-center gap-2">
                         <input
                             type="radio"
                             name="formType"
                             value="inquiry"
                             checked={formType === 'inquiry'}
                             onChange={(e) => setFormType(e.target.value)}
-                            className="mr-2"
                         />
                         <span
                             style={{
@@ -187,14 +186,13 @@ export default function ContactForm({ locale }: ContactFormProps) {
                             {t('inquiry')}
                         </span>
                     </label>
-                    <label className="flex items-center">
+                    <label className="flex items-center gap-2">
                         <input
                             type="radio"
                             name="formType"
                             value="complaint"
                             checked={formType === 'complaint'}
                             onChange={(e) => setFormType(e.target.value)}
-                            className="mr-2"
                         />
                         <span
                             style={{
@@ -206,14 +204,13 @@ export default function ContactForm({ locale }: ContactFormProps) {
                             {t('complaint')}
                         </span>
                     </label>
-                    <label className="flex items-center">
+                    <label className="flex items-center gap-2">
                         <input
                             type="radio"
                             name="formType"
                             value="suggestion"
                             checked={formType === 'suggestion'}
                             onChange={(e) => setFormType(e.target.value)}
-                            className="mr-2"
                         />
                         <span
                             style={{
