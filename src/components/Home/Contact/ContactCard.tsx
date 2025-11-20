@@ -55,7 +55,7 @@ export default function ContactCard({
 
             {/* Description */}
             <p
-                className="text-xs md:text-sm leading-relaxed w-full flex-grow"
+                className="text-xs md:text-[14px] leading-relaxed w-full flex-grow"
                 style={{
                     ...getFontStyles(locale),
                     color: '#ffffff',

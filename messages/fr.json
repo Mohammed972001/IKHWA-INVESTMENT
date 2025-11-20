@@ -224,7 +224,7 @@
     },
     "form": {
       "name": "Nom",
-      "namePlaceholder": "Ali",
+      "namePlaceholder": "Nom complet",
       "email": "Email",
       "emailPlaceholder": "example@gmail.com",
       "phone": "Téléphone",
@@ -459,6 +459,138 @@
       "contact": {
         "title": "Nous Contacter",
         "content": "Pour nous contacter, veuillez nous envoyer un e-mail à : contact@ikhwainvestments.com."
+      }
+    }
+  },
+  "Privacy": {
+    "hero": {
+      "title": "Politique de Confidentialité",
+      "description": "Découvrez les termes et conditions qui régissent votre utilisation de l'application et définissent vos droits et obligations pour garantir une expérience sûre et organisée."
+    },
+    "sections": {
+      "commitment": {
+        "title": "Engagement de l'Entreprise",
+        "content": "L'Entreprise s'engage à maintenir pleinement votre confidentialité."
+      },
+      "definitions": {
+        "title": "Définitions Clés",
+        "company": {
+          "title": "Société IKHWA Investments",
+          "content": "'L'Entreprise', 'nous', 'notre' ou 'nos' fait référence à la société IKHWA Investments et ses filiales dans le pays, et dans d'autres juridictions établies de temps en temps."
+        },
+        "customer": {
+          "title": "'Client', 'vous' ou 'votre'",
+          "content": "désigne toute personne : (a) qui s'abonne, utilise ou reçoit, ou qui a utilisé ou reçu, ou a demandé à utiliser ou recevoir les services de l'Entreprise, ou (b) qui communique avec l'Entreprise, ou (c) est considéré comme un utilisateur de ce site web."
+        },
+        "personalInfo": {
+          "title": "Informations Personnelles",
+          "content": "désigne les informations qui vous identifient personnellement, telles que votre nom complet ou votre photographie, ou votre numéro de compte, ou votre adresse e-mail, ou vos informations de paiement, ou votre historique de connexion au site, ou tout numéro d'identification d'appareil spécifique (tel qu'une adresse de protocole Internet), si l'Entreprise peut lier ces informations ou numéros à vous, et n'inclut pas les informations agrégées ou les informations qui peuvent facilement révéler l'identité de son propriétaire même lorsqu'elles sont liées à d'autres informations."
+        }
+      },
+      "ourCommitment": {
+        "title": "Notre Engagement envers Vous",
+        "content": "La société IKHWA Investments s'engage à protéger votre confidentialité et à maintenir la sécurité de vos informations personnelles conformément aux normes professionnelles et juridiques les plus élevées."
+      },
+      "dataCollection": {
+        "title": "Quelles Informations Personnelles l'Entreprise Collecte-t-elle ?",
+        "intro": "Lorsque vous remplissez le formulaire électronique disponible sur notre site web, l'Entreprise collecte des données personnelles du type suivant :",
+        "items": [
+          "Nom complet",
+          "Numéro de téléphone mobile",
+          "Adresse e-mail",
+          "Nom de l'entreprise"
+        ],
+        "additional": "L'Entreprise peut également (dans le cadre de ses procédures de recrutement) collecter les informations suivantes auprès des candidats pour étudier et évaluer leurs candidatures.",
+        "employmentItems": [
+          "Informations de contact (nom, adresse e-mail et numéros de téléphone)",
+          "Nationalité et âge",
+          "Qualifications éducatives",
+          "Compétences et aptitudes",
+          "Certificats d'expérience ou lettres de recommandation",
+          "CV et documents justificatifs pour les candidatures d'emploi",
+          "Historique professionnel",
+          "Package de salaire et d'avantages",
+          "Informations sur les personnes à charge et les bénéficiaires"
+        ]
+      },
+      "cookies": {
+        "title": "Collecte et Utilisation d'Informations Non Personnellement Identifiables",
+        "content": "Par l'utilisation de cookies : Lorsque vous interagissez avec notre site web, l'Entreprise peut utiliser une fonctionnalité de navigation appelée (cookies), pour collecter des informations sans identifier son propriétaire, et suivre vos modèles de navigation sur notre site. Il est connu qu'un cookie est un court fichier texte contenant un numéro d'identification unique qui identifie votre navigateur aux ordinateurs de l'Entreprise chaque fois que vous visitez l'un de nos sites web en utilisant ces fichiers. Ces fichiers indiquent à l'Entreprise quelles pages des sites ont été visitées et le nombre de navigateurs qui ont visité chaque page du site web, améliorant ainsi l'expérience des navigateurs sur son site web. Les cookies reconnaissent également votre ordinateur, pour enregistrer vos préférences et afficher des publicités, lorsque vous revisitez le site la prochaine fois en fonction de la façon dont vous avez parcouru le site précédemment, et l'Entreprise coopère avec des tiers qui utilisent ces cookies pour nous aider à gérer le trafic, la recherche et les analyses.\n\nL'utilisation de cookies est standard dans ce secteur, et de nombreux outils de navigation majeurs sont configurés pour accepter ces fichiers. Cependant, vous pouvez modifier les paramètres de votre navigateur pour vous permettre de refuser tous les cookies ou de vous avertir lorsque vous recevez l'un de ces fichiers. Mais si vous les refusez, vous pourriez ne pas pouvoir utiliser certaines fonctionnalités disponibles sur le site de l'Entreprise."
+      },
+      "dataUsage": {
+        "title": "Pourquoi l'Entreprise Cherche-t-elle à Collecter et Utiliser des Données Personnelles ?",
+        "intro": "La société IKHWA Investments collecte et utilise vos données personnelles aux fins suivantes :",
+        "items": [
+          "Établir et maintenir une relation commerciale et juridique digne de confiance avec vous",
+          "Si l'Entreprise a une raison légitime, par exemple, pour vous fournir nos produits ou services",
+          "Utiliser les données à des fins de recherche et d'études statistiques, pour comprendre vos besoins en tant que client et l'éligibilité à nos services",
+          "Proposer des produits ou services ou opportunités spécifiques à nos clients",
+          "Vous fournir des informations sur les derniers développements et nouveaux produits",
+          "Développer, améliorer et commercialiser des produits et services ou pour fournir à nos clients des produits et services",
+          "Fournir un support client",
+          "Répondre aux exigences légales et réglementaires de l'Entreprise",
+          "Vous fournir les informations et mises à jour que vous avez demandées",
+          "Répondre à vos questions relatives aux produits ou services que nous vous fournissons, ou à cette politique de confidentialité"
+        ]
+      },
+      "consent": {
+        "title": "Comment l'Entreprise Obtient-elle Votre Consentement ?",
+        "content": "Parfois, l'Entreprise peut demander votre consentement avant de procéder au traitement de vos données personnelles, et dans ce cas, la forme du consentement peut varier en fonction des circonstances et du type de données personnelles requises. Pour déterminer ce consentement, l'Entreprise prend en compte la sensibilité des informations et vos attentes raisonnables pour vous permettre de comprendre la nature de la collecte de vos données personnelles ou son but et ses implications. L'Entreprise tient à obtenir un consentement explicite de votre part chaque fois que les données personnelles sont probablement sensibles, et ces données comprennent des informations relatives à la race, ou à l'origine ethnique de l'individu, ou à la politique, ou à la religion, ou à l'adhésion à des syndicats, ou aux caractéristiques biologiques/biométriques ou de santé, ou à la vie sexuelle ou aux orientations sexuelles.",
+        "methods": "Le consentement peut être obtenu de l'une des manières suivantes :",
+        "methodsList": [
+          "L'Entreprise peut demander de remplir un formulaire pour obtenir le consentement et collecter des données personnelles et informer le client de l'objectif prévu d'utilisation de ces données. Compléter et signer le formulaire est considéré comme une acceptation par le client de la collecte d'informations et des utilisations prévues",
+          "Obtenir des données verbalement lors de la collecte d'informations par téléphone",
+          "Lorsque le client utilise l'un des produits ou services"
+        ],
+        "withdrawal": "Vous pouvez annuler votre consentement à l'utilisation de vos données à tout moment, et dans ce cas, toute action de notre part avec vos informations personnelles qui a été faite avec votre consentement jusqu'à ce moment n'est pas considérée comme illégale. Cela inclut votre droit de retirer le consentement qui nous a été donné pour utiliser vos données personnelles à des fins de marketing, donc si vous souhaitez retirer votre consentement pour collecter, stocker, utiliser ou divulguer certaines informations personnelles, veuillez contacter l'Entreprise via son e-mail."
+      },
+      "noData": {
+        "title": "Que se Passe-t-il si Vous ne Nous Fournissez pas les Informations que Nous Demandons ou si Vous Nous Demandez d'Arrêter de Traiter Vos Données ?",
+        "content": "Si vous ne fournissez pas les données personnelles requises, ou refusez ou retirez votre consentement à notre traitement de vos données lorsque (nous en avons besoin pour vous fournir / il est nécessaire de pouvoir fournir) le produit et/ou le service, nous pourrions ne pas être en mesure de vous fournir le produit et/ou le service demandé. Nous clarifierons les implications pour vous à ce moment-là pour vous aider à prendre votre décision."
+      },
+      "dataSharing": {
+        "title": "Avec Qui Partageons-nous Vos Données Personnelles ?",
+        "content": "Nous partageons vos données personnelles avec des tiers de confiance que nous utilisons pour fournir les produits et/ou services que vous ou notre client avez demandés, et ils sont liés par des engagements similaires et stricts de maintenir la confidentialité et la sécurité.\n\nNous partageons vos données personnelles avec des tiers qui effectuent des tâches en notre nom, et en même temps nous fournissent des produits ou services spécifiques, tels que des conseillers professionnels et des consultants en informatique dont les tâches nécessitent de tester et de développer nos systèmes technologiques commerciaux, des centres de recherche, des listes de diffusion et des coordinateurs d'activités électroniques. Ces tiers sont liés par des engagements stricts similaires de maintenir la confidentialité et la sécurité.\n\nNous partageons vos données personnelles avec d'autres entreprises qui ont été mentionnées sur ce site web à des fins principalement opérationnelles et commerciales. Au fur et à mesure que nous continuons à développer notre entreprise, nous pouvons vendre ou acheter d'autres entreprises. Si une entité a l'intention d'acheter notre entreprise ou de fusionner avec nous, vos données personnelles seront divulguées à cette entité. D'autre part, en cas de procédures de faillite, ou de restructuration par nous ou contre nous, toutes ces informations seront considérées comme notre propriété et peuvent donc être vendues ou transférées à des tiers.\n\nNous partageons également vos données personnelles avec d'autres parties externes lorsque cela est nécessaire pour se conformer à une obligation légale lorsque nous croyons de bonne foi qu'il existe une justification légale, ou en réponse à une demande d'organismes gouvernementaux menant des enquêtes, ou pour vérifier ou sauvegarder nos politiques applicables, ou pour surveiller les activités frauduleuses et s'en prémunir ou de toute vulnérabilité technique ou de sécurité, ou pour répondre à une urgence, ou pour protéger les droits ou la propriété ou la sécurité des tiers ou des visiteurs de notre site ou de notre entreprise ou du grand public.\n\nNous ne vendons pas vos données personnelles. Cependant, lorsque vos données personnelles sont divulguées à un tiers autre qu'un partenaire ou un allié de l'Entreprise, ou à un fournisseur de services externe, nous nous engageons à obtenir le consentement de la personne, sauf si la loi l'exige ou le permet. Cette partie ne reçoit que la quantité nécessaire d'informations dans les circonstances actuelles, et l'utilisation de données personnelles à d'autres fins que l'objectif prévu est interdite."
+      },
+      "dataTransfer": {
+        "title": "Vos Données Personnelles Sont-elles Transférées à l'Étranger ?",
+        "content": "Si le fournisseur de services externe est situé dans un pays étranger, vos données personnelles peuvent être traitées et stockées dans ce pays. Dans ces circonstances, les gouvernements, les tribunaux, les autorités chargées de l'application de la loi ou les organismes de réglementation de ce pays étranger peuvent être en mesure d'accéder à vos données en vertu de leurs lois applicables, cependant, nous vérifierons lorsque nous transférons vos données personnelles vers un pays étranger, que des mesures de protection appropriées sont appliquées dans ce transfert."
+      },
+      "dataProtection": {
+        "title": "Comment l'Entreprise Protège Vos Données Personnelles",
+        "content": "La nature des mesures de protection varie en fonction de la sensibilité et de la portée des données personnelles et de la manière dont elles sont stockées. Les types d'informations personnelles les plus sensibles sont entourés de niveaux de protection plus élevés, tels que le cryptage. Si vous souhaitez plus d'informations sur les mesures de protection que nous avons en place, veuillez nous contacter par e-mail contact@ikhwainvestments.com."
+      },
+      "dataRetention": {
+        "title": "Combien de Temps l'Entreprise Conserve-t-elle Vos Données Personnelles ?",
+        "content": "L'Entreprise conservera les données personnelles collectées conformément aux exigences légales applicables.\n\nLes données personnelles sont automatiquement supprimées si elles ne sont plus nécessaires et qu'il n'y a pas de justification légale qui exige de les conserver."
+      },
+      "yourRights": {
+        "title": "Quels Sont Vos Droits ?",
+        "intro": "Lorsqu'il s'agit de vos données personnelles, la loi vous préserve un certain nombre de droits. Vous pouvez obtenir plus d'informations et de conseils sur vos droits auprès de l'autorité de protection des données de votre pays, et vos droits incluent :",
+        "rights": [
+          "Droit de s'opposer au traitement des données : Vous avez le droit de vous opposer à certains types de traitement de données, y compris le traitement à des fins de marketing direct (si vous ne souhaitez plus recevoir de messages sur les opportunités potentielles, par exemple)",
+          "Droit d'être informé : Vous avez le droit d'obtenir des informations claires, transparentes et faciles à comprendre sur la façon dont nous utilisons vos informations et vos droits. C'est pourquoi nous vous fournissons des informations dans cette politique",
+          "Droit d'accéder à vos informations : Vous avez le droit d'accéder à vos informations (si nous les traitons) et à certaines autres informations (similaires aux informations contenues dans cette politique de confidentialité), pour visualiser et vérifier que nous utilisons vos données personnelles conformément à la loi sur la protection des données",
+          "Droit de corriger les informations : Vous avez le droit de corriger vos informations si elles sont inexactes ou incomplètes",
+          "Droit de supprimer les informations : Également connu sous le nom de 'droit à l'oubli', en d'autres termes, vous pouvez demander la suppression ou le retrait de vos informations lorsqu'il n'y a pas de raison impérieuse pour que nous continuions à les utiliser. Ce droit n'est pas un droit général et il existe des exceptions",
+          "Droit de restreindre le traitement des informations : Vous avez le droit de 'bloquer' ou d'être strict avec l'utilisation de vos informations pendant une période supplémentaire. Lors du blocage du traitement de vos informations, nous pouvons continuer à les stocker à condition de ne pas les réutiliser. Nous conservons des listes de personnes qui ont demandé d''arrêter' le traitement de leurs informations pour nous assurer de respecter leur demande à l'avenir",
+          "Droit à la portabilité des données : Vous avez le droit d'obtenir vos données personnelles et de les réutiliser à vos propres fins dans différentes activités. Si vous décidez de passer, par exemple, à un nouveau fournisseur, ce droit vous permet de transférer vos informations, ou de les copier ou de les convertir sans problème de nos systèmes vers leurs systèmes informatiques en toute sécurité et sans affecter négativement la possibilité de les utiliser",
+          "Droit de déposer une plainte : Vous avez le droit de déposer une plainte auprès de l'autorité compétente en matière de protection des données dans votre pays concernant la façon dont nous traitons ou traitons vos informations personnelles"
+        ],
+        "exercise": "Vous pouvez exercer l'un des droits mentionnés ci-dessus en soumettant une demande à l'e-mail : contact@ikhwainvestments.com.",
+        "limitations": "L'Entreprise peut ne pas être en mesure d'autoriser l'accès à toutes les données personnelles stockées avec elle dans certaines circonstances, lorsque la divulgation, par exemple, conduit à la divulgation d'informations commerciales confidentielles, ou si les informations personnelles sont soumises à une condition de confidentialité entre le client et l'avocat, ou si ces informations ont été collectées lors d'une enquête sur une violation contractuelle ou une violation légale."
+      },
+      "complaints": {
+        "title": "Comment Puis-je M'Opposer à la Conformité et Faire des Suggestions ?",
+        "content": "Vous pouvez adresser vos questions ou demandes à l'e-mail contact@ikhwainvestments.com concernant les principes de confidentialité mentionnés ci-dessus ou concernant les pratiques de confidentialité appliquées par l'Entreprise et contenues dans la politique de confidentialité.\n\nL'Entreprise enquêtera sur toutes les plaintes et répondra à toutes les questions que vous soulevez. S'il s'avère que la plainte est fondée, l'Entreprise prendra les mesures appropriées pour la régler, ce qui peut aller jusqu'à modifier ses politiques et procédures."
+      },
+      "yourRole": {
+        "title": "Votre Rôle dans la Protection de Vos Données Personnelles",
+        "content": "Veuillez vous rappeler que la politique de confidentialité de la société IKHWA Investments et l'utilisation de vos données personnelles ne s'appliquent qu'aux informations fournies par vous. Nous tenons à vous avertir lorsque vous divulguez des informations personnelles, ou des données de confidentialité sensibles pendant que vous utilisez des salles de discussion ou des groupes de discussion, ou des tableaux d'affichage ou d'autres forums publics en ligne, que la collecte de ces informations n'est pas effectuée par ou au nom de l'Entreprise, mais peut être collectée et utilisée par d'autres personnes ou entreprises sur lesquelles l'Entreprise n'a aucune autorité. L'Entreprise n'est pas responsable des données de confidentialité ou de la conformité à la confidentialité, ou de tout autre contenu qui apparaît sur un site web qui n'est pas détenu et exploité par l'Entreprise ou ses sociétés alliées.\n\nNous tenons à souligner que l'Entreprise fait tout son possible pour protéger et sauvegarder les informations personnelles, et nous conseillons qu'il existe des mesures de protection que vous devez également suivre. Nous vous recommandons de ne pas partager vos informations personnelles avec un tiers à moins que vous ne soyez clairement conscient du but de leur demande, et que vous sachiez avec qui vous traitez. Ne conservez pas d'informations personnelles sensibles dans votre boîte de réception ou sur le webmail."
+      },
+      "updates": {
+        "title": "Mise à Jour de Cette Politique de Confidentialité",
+        "content": "L'Entreprise mettra à jour cette politique de confidentialité pour ajouter toute modification à nos pratiques, et pour se conformer aux lois applicables, et l'Entreprise peut modifier ou supprimer des parties de cette politique de confidentialité chaque fois qu'elle le juge nécessaire. Lorsque nous apporterons des modifications à cette politique de confidentialité, nous vous en informerons. Vous pouvez vérifier la dernière mise à jour de cette politique de confidentialité en vous référant à la date indiquée en haut de la première page."
       }
     }
   }

@@ -87,21 +87,21 @@ const Footer = () => {
 
                 {/* Company Information Section */}
                 <div className="footer-section footer-company-info">
-                    <h3 className="footer-title" style={getFontStyles(detectedLocale)}>{t('Home.footer.companyInfo.title')}</h3>
-                    <p className="footer-description" style={getFontStyles(detectedLocale)}>
+                    <h3 className="footer-title " style={getFontStyles(detectedLocale, { fontSize: '1.375rem' })}>{t('Home.footer.companyInfo.title')}</h3>
+                    <p className="footer-description" style={getFontStyles(detectedLocale, { fontSize: '1rem' })}>
                         {t('Home.footer.companyInfo.description')}
                     </p>
                 </div>
 
                 {/* Quick Links Section */}
                 <div className="footer-section footer-quick-links">
-                    <h3 className="footer-title" style={getFontStyles(detectedLocale)}>{t('Home.footer.quickLinks.title')}</h3>
+                    <h3 className="footer-title" style={getFontStyles(detectedLocale, { fontSize: '1.375rem' })}>{t('Home.footer.quickLinks.title')}</h3>
                     <ul className="footer-links-list">
                         <li>
                             <Link
                                 href={`/${locale}`}
                                 className="footer-link"
-                                style={getFontStyles(detectedLocale)}
+                                style={getFontStyles(detectedLocale, { fontSize: '1rem' })}
                                 onClick={(e) => handleFooterNavClick(e, `/${locale}`)}
                             >
                                 {t('Home.footer.quickLinks.home')}
@@ -111,7 +111,7 @@ const Footer = () => {
                             <Link
                                 href={`/${locale}#about-us`}
                                 className="footer-link"
-                                style={getFontStyles(detectedLocale)}
+                                style={getFontStyles(detectedLocale, { fontSize: '1rem' })}
                                 onClick={(e) => handleFooterNavClick(e, `/${locale}#about-us`)}
                             >
                                 {t('Home.footer.quickLinks.aboutUs')}
@@ -121,7 +121,7 @@ const Footer = () => {
                             <Link
                                 href={`/${locale}#services`}
                                 className="footer-link"
-                                style={getFontStyles(detectedLocale)}
+                                style={getFontStyles(detectedLocale, { fontSize: '1rem' })}
                                 onClick={(e) => handleFooterNavClick(e, `/${locale}#services`)}
                             >
                                 {t('Home.footer.quickLinks.services')}
@@ -131,7 +131,7 @@ const Footer = () => {
                             <Link
                                 href={`/${locale}/CompanyFormation`}
                                 className="footer-link"
-                                style={getFontStyles(detectedLocale)}
+                                style={getFontStyles(detectedLocale, { fontSize: '1rem' })}
                                 onClick={(e) => handleFooterNavClick(e, `/${locale}/CompanyFormation`)}
                             >
                                 {t('Home.footer.quickLinks.companyFormation')}
@@ -141,7 +141,7 @@ const Footer = () => {
                             <Link
                                 href={`/${locale}#contact`}
                                 className="footer-link"
-                                style={getFontStyles(detectedLocale)}
+                                style={getFontStyles(detectedLocale, { fontSize: '1rem' })}
                                 onClick={(e) => handleFooterNavClick(e, `/${locale}#contact`)}
                             >
                                 {t('Home.footer.quickLinks.contactUs')}
@@ -152,15 +152,15 @@ const Footer = () => {
 
                 {/* Information Section */}
                 <div className="footer-section footer-information">
-                    <h3 className="footer-title" style={getFontStyles(detectedLocale)}>{t('Home.footer.information.title')}</h3>
+                    <h3 className="footer-title" style={getFontStyles(detectedLocale, { fontSize: '1.375rem' })}>{t('Home.footer.information.title')}</h3>
                     <ul className="footer-links-list">
                         <li>
-                            <Link href={`/${locale}/terms`} className="footer-link" style={getFontStyles(detectedLocale)}>
+                            <Link href={`/${locale}/terms`} className="footer-link" style={getFontStyles(detectedLocale, { fontSize: '1rem' })}>
                                 {t('Home.footer.information.termsConditions')}
                             </Link>
                         </li>
                         <li>
-                            <Link href={`/${locale}/privacy`} className="footer-link" style={getFontStyles(detectedLocale)}>
+                            <Link href={`/${locale}/privacy`} className="footer-link" style={getFontStyles(detectedLocale, { fontSize: '1rem' })}>
                                 {t('Home.footer.information.privacyPolicy')}
                             </Link>
                         </li>
@@ -169,18 +169,20 @@ const Footer = () => {
 
                 {/* Follow Us Section */}
                 <div className="footer-section footer-follow-us">
-                    <h3 className="footer-title" style={getFontStyles(detectedLocale)}>{t('Home.footer.followUs.title')}</h3>
+                    <h3 className="footer-title" style={getFontStyles(detectedLocale, { fontSize: '1.375rem' })}>{t('Home.footer.followUs.title')}</h3>
                     <ul className="footer-social-links">
                         {socialMediaLinks.map((social, index) => (
                             <li key={index} className="footer-social-item">
                                 <a
                                     href={social.url}
                                     className="footer-social-link"
-                                    style={getFontStyles(detectedLocale)}
+                                    style={getFontStyles(detectedLocale, { fontSize: '1rem' })}
                                     target="_blank"
                                     rel="noopener noreferrer"
                                 >
-                                    <Image
+                                  
+                                    <span className="footer-social-text" style={{ pointerEvents: 'none' }}>{social.name}</span>
+                                      <Image
                                         src={social.icon}
                                         alt={social.name}
                                         width={24}
@@ -188,7 +190,6 @@ const Footer = () => {
                                         className="footer-social-icon"
                                         style={{ pointerEvents: 'none' }}
                                     />
-                                    <span className="footer-social-text" style={{ pointerEvents: 'none' }}>{social.name}</span>
                                 </a>
                             </li>
                         ))}

@@ -27,11 +27,11 @@ export default function ContactInfo({ locale }: ContactInfoProps) {
                     {t('workingHours.title')}
                 </h3>
                 <p
-                    className="text-sm mb-2"
+                    className="text-[16px] mb-2"
                     style={{
                         ...getFontStyles(locale),
                         color: '#ffffff',
-                        fontSize: '14px',
+                        fontSize: '16px',
                         fontWeight: 400,
                         lineHeight: '24px'
                     }}
@@ -43,7 +43,7 @@ export default function ContactInfo({ locale }: ContactInfoProps) {
                     style={{
                         ...getFontStyles(locale),
                         color: '#ffffff',
-                        fontSize: '14px',
+                        fontSize: '16px',
                         fontWeight: 400,
                         lineHeight: '24px'
                     }}

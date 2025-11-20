@@ -223,7 +223,7 @@
     },
     "form": {
       "name": "Name",
-      "namePlaceholder": "Ali",
+      "namePlaceholder": "Full Name",
       "email": "Email",
       "emailPlaceholder": "example@gmail.com",
       "phone": "Phone",
@@ -458,6 +458,138 @@
       "contact": {
         "title": "Contact Us",
         "content": "To contact us, please email us at: contact@ikhwainvestments.com."
+      }
+    }
+  },
+  "Privacy": {
+    "hero": {
+      "title": "Privacy Policy",
+      "description": "Learn about the terms and conditions that govern your use of the application and define your rights and obligations to ensure a safe and organized experience."
+    },
+    "sections": {
+      "commitment": {
+        "title": "Company Commitment",
+        "content": "The Company is committed to fully maintaining your privacy."
+      },
+      "definitions": {
+        "title": "Key Definitions",
+        "company": {
+          "title": "IKHWA Investments Company",
+          "content": "'The Company', 'we', 'us', or 'our' refers to IKHWA Investments Company and its subsidiaries in the country, and in other jurisdictions established from time to time."
+        },
+        "customer": {
+          "title": "'Customer', 'you' or 'your'",
+          "content": "means any person: (a) who subscribes to, uses, or receives, or who has used or received, or has applied to use or receive the Company's services, or (b) who communicates with the Company, or (c) is considered a user of this website."
+        },
+        "personalInfo": {
+          "title": "Personal Information",
+          "content": "means information that personally identifies you, such as your full name or photograph, or your account number, or your email address, or your payment information, or your login history to the site, or any specific device identification numbers (such as an Internet Protocol address), if the Company can link this information or numbers to you, and does not include aggregate information or information that can easily reveal the identity of its owner even when linked to other information."
+        }
+      },
+      "ourCommitment": {
+        "title": "Our Commitment to You",
+        "content": "IKHWA Investments Company is committed to protecting your privacy and maintaining the security of your personal information in accordance with the highest professional and legal standards."
+      },
+      "dataCollection": {
+        "title": "What Personal Information Does the Company Collect?",
+        "intro": "When you fill out the electronic form available on our website, the Company collects personal data of the following type:",
+        "items": [
+          "Full name",
+          "Mobile phone number",
+          "Email address",
+          "Company name"
+        ],
+        "additional": "The Company may also (as part of its recruitment procedures) collect the following information from applicants to study and evaluate their applications.",
+        "employmentItems": [
+          "Contact information (name, email address, and phone numbers)",
+          "Nationality and age",
+          "Educational qualifications",
+          "Skills and competencies",
+          "Experience certificates or letters of recommendation",
+          "Resume and supporting documents for job applications",
+          "Employment history",
+          "Salary and benefits package",
+          "Information about dependents and beneficiaries"
+        ]
+      },
+      "cookies": {
+        "title": "Collection and Use of Non-Personally Identifiable Information",
+        "content": "Through the use of cookies: While you interact with our website, the Company may use a browsing feature called (cookies), to collect information without identifying its owner, and track your browsing patterns to our site. It is known that a cookie is a short text file containing a unique identification number that identifies your browser to the Company's computers each time you visit one of our websites using those files. These files tell the Company which pages of the sites have been visited and the number of browsers that visited each page of the website, thus improving the experience of browsers to its website. Cookies also recognize your computer, to save your preferences and view ads, when you revisit the site next time based on how you browsed the site previously, and the Company cooperates with third parties that use these cookies to help us manage traffic, research, and analytics.\n\nThe use of cookies is standard in this sector, and many major browsing tools are set up to accept those files. However, you can change your browser settings to enable you to reject all cookies or to notify you when you receive one of those files. But if you refuse them, you may fail to use some features available on the Company's site."
+      },
+      "dataUsage": {
+        "title": "Why Does the Company Seek to Collect and Use Personal Data?",
+        "intro": "IKHWA Investments Company collects and uses your personal data for the following purposes:",
+        "items": [
+          "Establishing and maintaining a trustworthy business and legal relationship with you",
+          "If the Company has a legitimate reason, for example, to provide you with our products or services",
+          "Using data for research purposes and statistical studies, to understand your needs as a customer and the eligibility for our services",
+          "Proposing specific products or services or opportunities to our customers",
+          "Providing you with information about the latest developments and new products",
+          "Developing, enhancing, and marketing products and services or to provide our customers with products and services",
+          "Providing customer support",
+          "Meeting the Company's legal and regulatory requirements",
+          "Providing you with the information and updates you requested",
+          "Answering your questions related to the products or services we provide to you, or to this privacy policy"
+        ]
+      },
+      "consent": {
+        "title": "How Does the Company Obtain Your Consent?",
+        "content": "Sometimes, the Company may request your consent before proceeding to handle your personal data, and in this case, the form of consent may vary depending on the circumstances and the type of personal data required. To determine that consent, the Company takes into account the sensitivity of the information and your reasonable expectations to enable you to understand the nature of collecting your personal data or the purpose thereof and its implications. The Company is keen to obtain explicit consent from you whenever the personal data is most likely sensitive, and such data includes information related to race, or the ethnic origin of the individual, or politics, or religion, or membership in trade unions, or biological/biometric or health characteristics, or sexual life or sexual orientations.",
+        "methods": "Consent may be obtained in one of the following ways:",
+        "methodsList": [
+          "The Company may request filling out a form to obtain consent and collect personal data and inform the customer of the intended purpose of using that data. Completing and signing the form is considered acceptance by the customer of the collection of information and the intended uses",
+          "Obtaining data verbally when collecting information over the phone",
+          "When the customer uses one of the products or services"
+        ],
+        "withdrawal": "You can cancel your consent to use your data at any time, and in this case, any action by us with your personal information that was done with your consent up to that point is not considered to be illegal. This includes your right to withdraw the consent given to us to use your personal data for marketing purposes, so if you wish to withdraw your consent to collect, store, use, or disclose some personal information, please contact the Company via its email."
+      },
+      "noData": {
+        "title": "What Happens If You Do Not Provide Us with the Information We Request or If You Ask Us to Stop Handling Your Data?",
+        "content": "If you do not provide the required personal data, or refuse or withdraw your consent to our handling of your data when (we need it to provide you with / it is necessary to enable it to provide) the product and/or service, we may not be able to provide you with the requested product and/or service. We will clarify the implications for you at the time to help you make your decision."
+      },
+      "dataSharing": {
+        "title": "With Whom Do We Share Your Personal Data?",
+        "content": "We share your personal data with trusted third parties we use to provide the products and/or services you or our customer requested, and they are bound by similar and strict commitments to maintain privacy and confidentiality.\n\nWe share your personal data with third parties who perform tasks on our behalf, and at the same time provide us with specific products or services, such as professional advisors and IT consultants whose tasks require testing and developing our business technology systems, research centers, email lists, and electronic activity coordinators. These third parties are bound by similar strict commitments to maintain privacy and confidentiality.\n\nWe share your personal data with other companies that have been referred to on this website for primarily operational and commercial purposes. As we continue to develop our business, we may sell or buy other businesses. If an entity intends to buy our company or merge with us, your personal data will be disclosed to that entity. On the other hand, in the event of bankruptcy proceedings, or restructuring by us or against us, all such information will be considered our property and can therefore be sold or transferred to third parties.\n\nWe also share your personal data with other external parties when necessary to comply with a legal obligation when we believe in good faith that there is a legal justification, or in response to a request from government bodies conducting investigations, or to verify or save our applicable policies, or to monitor fraudulent activities and guard against them or any technical or security vulnerabilities, or to respond to an emergency, or to protect the rights or property or safety or security of third parties or visitors to our site or our business or the general public.\n\nWe do not sell your personal data. However, when your personal data is disclosed to any third party other than a partner or ally of the Company, or to an external service provider, we are committed to obtaining the person's consent, except as required or permitted by law. That party is provided only with the necessary amount of information under prevailing circumstances, and the use of personal data for other than the intended purpose is prohibited."
+      },
+      "dataTransfer": {
+        "title": "Is Your Personal Data Transferred Outside the Country?",
+        "content": "If the external service provider is located in a foreign country, your personal data may be handled and stored in that country. In these circumstances, governments, courts, law enforcement authorities, or regulatory bodies in that foreign country may be able to access your data under their applicable laws, however, we will verify when we transfer your personal data to a foreign country, that appropriate protective measures are applied in that transfer."
+      },
+      "dataProtection": {
+        "title": "How the Company Protects Your Personal Data",
+        "content": "The nature of protective measures varies depending on the sensitivity and scope of personal data and how it is stored. The most sensitive types of personal information are surrounded by higher levels of protection, such as encryption. If you would like more information about the protective measures we have in place, please contact us via email contact@ikhwainvestments.com."
+      },
+      "dataRetention": {
+        "title": "How Long Does the Company Retain Your Personal Data?",
+        "content": "The Company will retain the collected personal data in accordance with applicable legal requirements.\n\nPersonal data is automatically deleted if it is no longer required and there is no legal justification that requires retaining it."
+      },
+      "yourRights": {
+        "title": "What Are Your Rights?",
+        "intro": "When it comes to your personal data, the law preserves a number of rights for you. You can obtain more information and advice about your rights from the data protection authority in your country, and your rights include:",
+        "rights": [
+          "Right to object to data handling: You have the right to object to certain types of data processing, including processing for the purpose of direct marketing (if you no longer wish to receive messages about potential opportunities, for example)",
+          "Right to be informed: You have the right to obtain clear, transparent, and easy-to-understand information about how we use your information and your rights. This is why we provide you with information in this policy",
+          "Right to access your information: You have the right to access your information (if we are processing it) and certain other information (similar to the information contained in this privacy policy), to view and verify that we use your personal data in compliance with data protection law",
+          "Right to correct information: You have the right to correct your information if it is inaccurate or incomplete",
+          "Right to delete information: Also known as 'the right to be forgotten', in other words, you may request the deletion or removal of your information when there is no compelling reason for us to continue using it. This right is not a general right and there are exceptions",
+          "Right to restrict data handling: You have the right to 'block' or be strict with the use of your information for an additional period. When blocking the handling of your information, we can continue to store it on the condition that we do not use it again. We keep lists of individuals who have requested to 'stop' the handling of their information to ensure we respect their request in the future",
+          "Right to data portability: You have the right to obtain your personal data and reuse it for your own purposes in different activities. If you decide to switch, for example, to a new provider, this right allows you to transfer your information, or copy or convert it without trouble from our systems to their IT systems safely and without negatively affecting the possibility of using it",
+          "Right to file a complaint: You have the right to file a complaint with the relevant data protection authority in your country about the way we handle or process your personal information"
+        ],
+        "exercise": "You can exercise any of the rights mentioned above by submitting a request to the email: contact@ikhwainvestments.com.",
+        "limitations": "The Company may not be able to allow access to all personal data stored with it in certain circumstances, when disclosure, for example, leads to the disclosure of confidential business information, or if the personal information is subject to a confidentiality condition between the customer and the lawyer, or if that information was collected during an investigation into a contractual breach or legal violation."
+      },
+      "complaints": {
+        "title": "How Can I Object to Compliance and Make Suggestions?",
+        "content": "You can direct your questions or inquiries to the email contact@ikhwainvestments.com about the privacy principles mentioned above or about the privacy practices applied by the Company and contained in the privacy policy.\n\nThe Company will investigate all complaints and answer all the questions you raise. If it turns out that the complaint is based on a basis, the Company will take appropriate measures to settle it, which may extend to amending its policies and procedures."
+      },
+      "yourRole": {
+        "title": "Your Role in Protecting Your Personal Data",
+        "content": "Please remember that the privacy policy of IKHWA Investments Company and the use of your personal data applies only to the information provided by you. We would like to warn you when you disclose personal information, or sensitive privacy data while you use chat rooms or newsgroups, or bulletin boards or other public forums online, that the collection of that information is not done by or on behalf of the Company, but may be collected and used by other people or companies over which the Company has no authority. The Company is not responsible for privacy data or privacy compliance, or for any other content that appears on any website that is not owned and operated by the Company or its allied companies.\n\nWe would like to emphasize that the Company makes every effort to protect and safeguard personal information, and we advise that there are protective measures that you must follow as well. We recommend that you do not share your personal information with any third party unless you are clearly aware of the purpose of their request, and are aware of who you are dealing with. Do not keep sensitive personal information in your email inbox or on webmail."
+      },
+      "updates": {
+        "title": "Updating This Privacy Policy",
+        "content": "The Company will update this privacy policy to add any changes to our practices, and to comply with applicable laws, and the Company may amend or remove parts of this privacy policy whenever it deems it necessary to do so. When we make any changes to this privacy policy, we will notify you. You can check the last update of this privacy policy by referring to the date shown at the top of the first page."
       }
     }
   }

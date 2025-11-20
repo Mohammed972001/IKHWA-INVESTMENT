@@ -54,7 +54,7 @@ const Navbar: React.FC<NavbarProps> = ({ className = '' }) => {
   const getNavbarFontStyles = (customStyles?: React.CSSProperties) => {
     const baseStyles = getFontStyles(detectedLocale, {
       fontSize: '18px',
-      fontWeight: 500,
+      fontWeight: 600,
       lineHeight: '150%',
       letterSpacing: '0%',
       textAlign: detectedLocale === 'ar' ? 'right' : 'left',
@@ -88,13 +88,13 @@ const Navbar: React.FC<NavbarProps> = ({ className = '' }) => {
         </Link>
 
         {/* Navigation Menu */}
-        <ul className="hidden lg:flex items-center gap-8">
+        <ul className="hidden lg:flex items-center font-bold gap-8">
           {navItems.map((item) => (
             <li key={item.key}>
               <Link
                 href={item.href}
                 onClick={(e) => handleNavClick(e, item.href)}
-                className="text-white hover:text-green-400 transition-colors duration-300 relative group navbar-text-responsive pb-1"
+                className="text-white font-bold hover:text-green-400 transition-colors duration-300 relative group navbar-text-responsive pb-1"
                 style={getNavbarFontStyles()}
               >
                 {t(item.key)}

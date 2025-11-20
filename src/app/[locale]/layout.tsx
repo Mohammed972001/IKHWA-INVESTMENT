@@ -21,7 +21,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale } = await params;
 
   const titles: Record<string, string> = {
-    ar: "استثمارات إخوة | شريكك الموثوق للاستثمار في المغرب",
+    ar: "إخوة للأستثمارات",
     en: "IKHWA INVESTMENTS | Your Trusted Partner for Investment in Morocco",
     fr: "IKHWA INVESTMENTS | Votre Partenaire de Confiance pour l'Investissement au Maroc"
   };

@@ -2,6 +2,7 @@
 
 import { useTranslations } from 'next-intl';
 import Image from 'next/image';
+import { getFontStyles } from '@/utils/fonts';
 import { useDetectedLocale } from '@/hooks/useDetectedLocale';
 
 const Partners = () => {
@@ -64,12 +65,18 @@ const Partners = () => {
         {/* Title and Description */}
         <div className="text-start lg:text-center mb-16 lg:mb-20">
           {/* Title */}
-          <h2 className="partners-title text-green-400 mb-8 tracking-wide text-[20px] lg:text-[32px] font-semibold leading-normal lg:leading-[63px]">
+          <h2
+            className="partners-title text-green-400 mb-8 tracking-wide text-[20px] lg:text-[32px] font-semibold leading-normal lg:leading-[63px]"
+            style={getFontStyles(locale)}
+          >
             {t('title')}
           </h2>
 
           {/* Description */}
-          <p className="partners-description text-white max-w-5xl mx-auto text-[12px] lg:text-lg font-normal lg:font-medium leading-[150%]">
+          <p
+            className="partners-description text-white max-w-5xl mx-auto text-[12px] lg:text-lg font-normal lg:font-medium leading-[150%]"
+            style={getFontStyles(locale)}
+          >
             {t('description')}
           </p>
         </div>
