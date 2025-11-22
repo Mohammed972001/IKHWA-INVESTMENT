@@ -78,7 +78,7 @@ const Navbar: React.FC<NavbarProps> = ({ className = '' }) => {
       <div className="flex items-center gap-8">
         <Link href="/" className="flex items-center relative z-10">
           <Image
-            src="/logo.png"
+            src="/logo2.png"
             alt="IKHWA INVESTMENTS Logo"
             width={120}
             height={85}

@@ -75,7 +75,7 @@ const Footer = () => {
                 <div className="footer-section footer-logo-section">
                     <div className="footer-logo">
                         <Image
-                            src="/logo.png"
+                            src="/logo2.png"
                             alt="IKHWA INVESTMENTS Logo"
                             width={500}
                             height={100}
